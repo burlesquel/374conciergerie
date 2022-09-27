@@ -49,7 +49,7 @@ export default {
     }
 }
 </script>
-    
+
 <template>
 
     <header :class="scrolled ? 'bg-black' : 'bg-transparent'" class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-10">
@@ -63,16 +63,15 @@ export default {
 
             <i class="fa-brands fa-instagram hidden sm:flex text-xl"></i>
 
-        <span @click="toggleNavbar" class="flex sm:hidden">
+        <span @click="toggleNavbar" class="flex sm:hidden text-black">
             <i class="fa fa-bars text-4xl"></i>
         </span>
     </header>
 </template>
-    
+
 <style scoped>
 header{
     height:13vh;
     transition: 1s ease-in-out;
 }
 </style>
-    
