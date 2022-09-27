@@ -9,16 +9,20 @@ export default {
     }
 }
 </script>
-      
+
 <template>
     <div>
         <!-- <Header /> -->
-        <video style="height: 100vh; width:100vw; z-index:-1"
-            class="hidden sm:flex bg-gray-300 object-cover object-center absolute left-0 right-0 top-0 bottom-0" autoplay muted loop
+        <video style="width:100vw; z-index:-1"
+            class="hidden sm:flex bg-gray-300 object-cover object-center absolute left-0 right-0 top-0 bottom-0"
+            autoplay
+            muted
+            loop
+            playsinline
             id="myVideo">
             <source src="~/assets/entrance_video.mp4" type="video/mp4">
         </video>
-        <nuxt-img class="h-full flex sm:hidden object-cover object-center absolute left-0 right-0 top-0 bottom-0" src="/landing_image.webp"/>
+        <nuxt-img class="h-full flex sm:hidden object-cover object-center absolute left-0 right-0 top-0 bottom-0" src="/landing_image.png"/>
         <main class="w-full h-screen flex relative flex-col">
 
 
@@ -32,8 +36,7 @@ export default {
         </main>
     </div>
 </template>
-      
+
 <style scoped>
 
 </style>
-      
