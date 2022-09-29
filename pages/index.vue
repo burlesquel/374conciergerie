@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col items-center ">
     <Landing />
     <Services />
   </div>
