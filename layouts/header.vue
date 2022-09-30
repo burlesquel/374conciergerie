@@ -53,7 +53,7 @@ export default {
 <template>
 
   <header :class="'bg-black'"
-    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-10">
+    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-10 shadow-lg">
     <nuxt-img class="h-full object-contain" src="/logo.png" />
     <nav class="hidden sm:flex flex-row gap-10 ">
       <span class="transition duration-300 hover:transform hover:scale-105 cursor-pointer"
