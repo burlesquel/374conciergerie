@@ -1,8 +1,9 @@
 <script>
 import Header from './header.vue';
 import MobileNavigation from '../components/MobileNavigation.vue';
+import Footer from './footer.vue';
     export default{
-    components: { Header, MobileNavigation },
+    components: { Header, MobileNavigation, Footer },
     data(){
         return{
             mobileNavOpen:false
@@ -23,8 +24,7 @@ import MobileNavigation from '../components/MobileNavigation.vue';
 
         <Nuxt/>
 
-        <footer>
-            footer
-        </footer>
+        <Footer/>
+        <nuxt-img class="fixed right-2 bottom-2 w-16 h-16 cursor-pointer" src="/whatsapp.png"/>
     </div>
 </template>
