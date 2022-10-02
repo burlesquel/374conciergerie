@@ -1,15 +1,17 @@
 <script>
 import Landing from '../components/index/Landing.vue';
 import Services from '../components/index/Services.vue';
+import Introduction from '../components/index/Introduction.vue';
 
 export default {
-  components: { Landing, Services }
+  components: { Landing, Services, Introduction }
 }
 </script>
 
 <template>
-  <div class="flex flex-col items-center ">
+  <div>
     <Landing />
+    <Introduction />
     <Services />
   </div>
 </template>

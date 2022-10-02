@@ -6,8 +6,13 @@ export default {
 </script>
 
 <template>
-  <section class="p-12">
-    <h1 class="text-center text-5xl text-white pb-8">Our Services</h1>
+  <section class="p-12 bg-gray-50 flex flex-col items-center gap-4">
+
+    <div>
+      <h1 class="text-center text-5xl text-gray-900 m-4">Our Services</h1>
+      <div class="h-0.5 bg-logorange"></div>
+    </div>
+
     <div class="flex flex-row flex-wrap justify-around">
       <Service heading="Shopping" icon_class="fa-solid fa-bag-shopping" />
       <Service heading="Travel" icon_class="fa-solid fa-plane" />
@@ -19,9 +24,9 @@ export default {
   </section>
 </template>
 
-<style>
+<style scoped>
 section {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 1, 22, 1) 100%);
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, #000000 0%, #21192f 100%); */
 }
 </style>

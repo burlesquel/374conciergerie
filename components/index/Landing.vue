@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <div class="relative w-full">
+    <section class="relative w-full bg-gray-100">
         <!-- <Header /> -->
         <video v-if="screenSize.width > 640"
             class="hidden sm:flex h-screen w-full z-1 bg-gray-300 object-cover object-center absolute left-0 right-0 top-0 bottom-0"
@@ -46,7 +46,7 @@ export default {
                 <button class="text-2xl p-2 bg-yellow-600 inline text-gray-900 rounded">Book now</button>
             </div>
         </main>
-    </div>
+    </section>
 </template>
 
 <style scoped>
