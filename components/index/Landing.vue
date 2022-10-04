@@ -30,7 +30,7 @@ export default {
         <video v-if="screenSize.width > 640"
             class="hidden sm:flex h-screen w-full z-1 bg-gray-300 object-cover object-center absolute left-0 right-0 top-0 bottom-0"
             autoplay muted loop playsinline id="myVideo">
-            <!-- <source src="~/assets/entrance_video.mp4" type="video/mp4"> -->
+            <source src="~/assets/entrance_video.mp4" type="video/mp4">
         </video>
         <nuxt-img v-if="screenSize.width < 640"
             class="h-screen w-full z-1 flex sm:hidden object-cover object-center absolute left-0 right-0 top-0 bottom-0"
