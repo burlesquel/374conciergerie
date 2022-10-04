@@ -2,32 +2,44 @@
 import Header from './header.vue';
 import MobileNavigation from '../components/MobileNavigation.vue';
 import Footer from './footer.vue';
+import Copyright from './copyright.vue'
     export default{
-    components: { Header, MobileNavigation, Footer },
+    components: { Header, MobileNavigation, Footer, Copyright },
     data(){
         return{
-            mobileNavOpen:false
+            mobileNavOpen:false,
+            languagePopupState:false
         }
     },
     methods:{
         toggleNavbar(){
             this.mobileNavOpen = !this.mobileNavOpen
+        },
+        toggleLanguagePopup(e) {
+            if (e.target.getAttribute("name") === "language-popup") {
+                this.languagePopupState = !this.languagePopupState
+            }
+            else {
+                this.languagePopupState = false
+            }
         }
     }
 }
 </script>
 
 <template>
-    <div>
+    <div @click="toggleLanguagePopup" >
         <MobileNavigation :open="mobileNavOpen" @togglenavbar="toggleNavbar"/>
-        <Header @togglenavbar="toggleNavbar"/>
+
+        <Header :popup-state="languagePopupState" @togglenavbar="toggleNavbar"/>
 
         <Nuxt/>
 
         <Footer/>
+        
         <nuxt-img class="fixed right-2 bottom-2 w-16 h-16 cursor-pointer" src="/whatsapp.png"/>
-        <div class="bg-black text-white text-center">
-            © 2022 374Conciergerie | All rights reserved.
-        </div>
+
+        <Copyright/>
+
     </div>
 </template>
