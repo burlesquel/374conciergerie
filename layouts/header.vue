@@ -29,7 +29,7 @@ export default {
         }
       ],
       languages: [
-        "Türkçe", "English", "François", "Deutsch", "Russian"
+        "Türkçe", "English", "Français", "Deutsch", "Russian"
       ],
       scrolled: false,
       current_path: null,
@@ -78,7 +78,7 @@ export default {
     </nav>
 
     <div class="relative flex flex-col items-center gap-4">
-      <i class="fa-solid fa-globe hidden sm:flex text-xl" name="language-popup"></i>
+      <i class="fa-solid fa-globe hidden sm:flex text-xl cursor-pointer" name="language-popup"></i>
       <div class="absolute flex flex-col bg-white text-black items-center top-7 text-lg border shadow rounded-sm"  v-if="popupState">
         <span class="p-0.5 w-full hover:bg-yellow-200 cursor-pointer select-none" v-for="language in languages">
           <span class=" ">{{language}}</span>

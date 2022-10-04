@@ -21,6 +21,8 @@ export default {
       <Service heading="Activites" icon_class="fa-solid fa-person-running" />
       <Service heading="Acommodation" icon_class="fa-solid fa-house" />
     </div>
+
+    <NuxtLink to="/services" class="bg-logorange p-2 rounded hover:bg-yellow-200 transition text-lg text-white cursor-pointer">Read More</NuxtLink>
   </section>
 </template>
 
