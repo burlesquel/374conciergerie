@@ -39,9 +39,11 @@ export default {
 
 
             <div class=" h-full z-1 text-white flex items-start flex-col justify-around p-8 ">
-                <div class="flex flex-col gap-8">
-                    <h1 class="heading text-5xl sm:text-6xl md:text-7xl bold">Meet yourself in new destinations</h1>
-                    <h2 class="subheading text-2xl sm:text-3xl md:text-4xl bold">Conciergerie done differently</h2>
+                <div class="flex w-2/3 flex-col gap-8">
+                    <h1 class="heading text-5xl sm:text-6xl md:text-7xl bold">374 Conciergerie</h1>
+                    <h2 class="subheading text-2xl sm:text-3xl md:text-4xl bold">Your personal concierge service in Istanbul.
+For a few days or a long time, for vacation or work, 374 Conciergerie makes your life easier.
+</h2>
                 </div>
                 <button class="text-2xl p-2 bg-yellow-600 inline text-gray-900 rounded">Book now</button>
             </div>

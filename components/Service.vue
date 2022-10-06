@@ -3,23 +3,30 @@ export default {
   props: {
     heading: {
       type: String,
-      required:true
+      required: true
     },
     icon_class: {
       type: String,
-      required:true
+      required: true
+    },
+    content: {
+      type: String,
+      required: true
     }
   }
 }
 </script>
 
 <template>
-  <div class="animation-element fade-up flex flex-col items-center gap-4 w-fit text-gray-800 w-full sm:w-1/2 lg:w-1/3 px-2 py-4">
-      <i :class="`${icon_class} rounded-full bg-logorange w-10 h-10 text-indigo-900 text-4xl p-2`"></i>
+  <div
+    class="animation-element fade-up flex flex-col items-center gap-4 w-fit text-gray-800 w-full sm:w-1/2 lg:w-1/3 px-2 py-4">
+    <div class="flex justify-center items-center text-center rounded-full bg-logorange text-white hover:text-logorange hover:bg-white border transition h-12 w-12">
+      <i :class="`${icon_class} text-3xl`"></i>
+    </div>
+    
     <h1 class="text-3xl">{{heading}}</h1>
     <span class="text-lg text-center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum sapiente, sequi alias inventore aperiam
-      vero cupiditate itaque a nemo et labore, qui assumenda nisi explicabo esse voluptatibus iste numquam!
+      {{content}}
     </span>
   </div>
 </template>

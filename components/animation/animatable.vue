@@ -23,7 +23,7 @@ export default {
 </script>
     
 <template>
-    <div class="overflow-hidden" id="animatable">
+    <div class="overflow-hidden flex flex-col items-center" id="animatable">
         <slot/>
     </div>
 </template>
