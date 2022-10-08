@@ -14,13 +14,13 @@ export default {
             <div class="h-0.5 bg-logorange"></div>
         </div>
         <div class="flex flex-row justify-evenly w-full flex-wrap">
-            <Offer class="bg-gray-200 hover:bg-gray-300" image_uri="/sea-voyage-to-bosphorus-strait.webp" header="Silver" :price="50" service="24 hours"
+            <Offer image_uri="/sea-voyage-to-bosphorus-strait.webp" header="Silver" :price="50" service="24 hours"
                  />
-            <Offer class="bg-yellow-200 hover:bg-yellow-300" image_uri="/beautiful-travaler-with-backpack-on-the-platform.webp" header="Gold" :price="90"
+            <Offer image_uri="/beautiful-travaler-with-backpack-on-the-platform.webp" header="Gold" :price="90"
                 service="3 days " />
-            <Offer class="bg-red-200 hover:bg-red-300" image_uri="/business-people-arriving-at-hotel.webp" header="Platinum" :price="150" service="7 days"
+            <Offer image_uri="/business-people-arriving-at-hotel.webp" header="Platinum" :price="150" service="7 days"
                />
-            <Offer class="bg-blue-200 hover:bg-blue-300" image_uri="/top-view-of-workplace-woman-marks-dates-on-calenda.webp" header="Diamond" :price="350"
+            <Offer image_uri="/top-view-of-workplace-woman-marks-dates-on-calenda.webp" header="Diamond" :price="350"
                 service="1 month"/>
 
         </div>
