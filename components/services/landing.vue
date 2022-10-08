@@ -26,7 +26,7 @@ export default {
 </script>
     
 <template>
-    <section class="flex flex-col items-center pb-4 bg-white h-70vh sm:h-90vh w-full justify-around overflow-hidden">
+    <section class="flex flex-col items-center pb-4 bg-gray-50 h-70vh sm:h-90vh w-full justify-around overflow-hidden">
         <h1
             class="animation-element fade-right text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light fade-up text-logorange text-center">
             SERVICES</h1>
