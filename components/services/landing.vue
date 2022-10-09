@@ -19,23 +19,33 @@ export default {
                 "main-in-car",
                 "restaurant",
                 "young-woman-touching-turkish-lamps-for-sale-in-the"
-            ]
+            ],
+            currentImage:"dentist"
         }
-    }
+    },
+    mounted(){
+        const limit = this.images.length
+        let current = 0
+        const interval = setInterval(()=>{
+            if(current === limit){
+                current = 0
+            }
+            this.currentImage = this.images[current]
+            current = current + 1
+        },2000)
+    },
 }
 </script>
     
 <template>
-    <section class="flex flex-col items-center pb-4 bg-gray-50 h-70vh sm:h-90vh w-full justify-around overflow-hidden">
-        <h1
-            class="animation-element fade-right text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light fade-up text-logorange text-center">
-            SERVICES</h1>
-        <VueSlickCarousel class="w-full flex flex-row items-center h-4/5 sm:h-3/4 sm:w-2/3" :pauseOnHover="false"
-            :autoplay="true" :arrows="true" :autoplaySpeed="2000">
-            <div v-for="image in images" :key="image" class=" flex items-center justify-center bg-red-300">
-                <nuxt-img class="object-contain h-full w-full" :src="`/carousel/${image}.webp`" />
-            </div>
-        </VueSlickCarousel>
+    <section class="relative bg-gray-50 h-70vh sm:h-90vh w-full overflow-hidden">
+        <div
+            class="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-30 z-10">
+            <span class=" animation-element w-full text-5xl 
+            sm:text-6xl md:text-7xl lg:text-8xl font-light fade-up text-white">
+                SERVICES</span>
+        </div>
+        <nuxt-img class="object-cover h-full w-full" :src="`/carousel/${currentImage}.webp`" />
     </section>
 </template>
     

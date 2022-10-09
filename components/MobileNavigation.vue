@@ -36,6 +36,28 @@ export default {
                     url: "/Service1",
                 },
             ],
+            navigation_links: [
+                {
+                    name: "Home",
+                    dir: "/index",
+                },
+                {
+                    name: "Services",
+                    dir: "/services",
+                },
+                {
+                    name: "About Us",
+                    dir: "/about",
+                },
+                {
+                    name: "Media",
+                    dir: "/media",
+                },
+                {
+                    name: "Contact",
+                    dir: "/contact"
+                }
+            ],
         })
     }
 }
@@ -62,21 +84,11 @@ export default {
 
 
                 <nav class="flex flex-col font-bold uppercase text-gray-600">
-
-                    <NuxtLink class="border-b p-2" to="/">HOME</NuxtLink>
-                    <NuxtLink class="border-b p-2" to="/about">ABOUT</NuxtLink>
-                    <div class="border-b p-2">
-                        <span @click="toggleSubmenu" class="inline-flex flex-row items-center">SERVICES <i
-                                class="fa-solid fa-sort-down inline"></i></span>
-                        <transition name="submenu">
-                            <div v-if="submenuOpen" class="flex flex-col">
-                                <span v-for="service of services"
-                                    class="hover:bg-pink-100 cursor-pointer p-2 border-b pl-1">{{service.name}}</span>
-                            </div>
-                        </transition>
-                    </div>
-                    <NuxtLink class="border-b p-2" to="/media">MEDIA</NuxtLink>
-                    <NuxtLink class="border-b p-2" to="/contact">İLETİŞİM</NuxtLink>
+                    <NuxtLink v-for="(item, index) in navigation_links" class="border-b p-2"
+                        :class="{'text-yellow-300':$route.name === item.dir.replace('/', '')}"
+                        :to="item.dir.includes('index') ? '/' : item.dir" :key="index" @click.native="toggleNavbar()">
+                        {{item.name}}
+                    </NuxtLink>
                 </nav>
             </div>
 

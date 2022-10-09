@@ -66,7 +66,7 @@ export default {
 
 <template>
   <header
-    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-10 shadow-lg bg-black">
+    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-50 shadow-lg bg-black">
     <nuxt-img class="h-full object-contain" src="/logo.png" />
     <nav class="hidden sm:flex flex-row gap-10 ">
       <NuxtLink v-for="(item, index) in navigation_links"
