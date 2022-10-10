@@ -3,8 +3,9 @@ import Header from './header.vue';
 import MobileNavigation from '../components/MobileNavigation.vue';
 import Footer from './footer.vue';
 import Copyright from './copyright.vue'
+import StickyPhoneButton from '../components/StickyPhoneButton.vue';
     export default{
-    components: { Header, MobileNavigation, Footer, Copyright },
+    components: { Header, MobileNavigation, Footer, Copyright, StickyPhoneButton },
     data(){
         return{
             mobileNavOpen:false,
@@ -28,7 +29,7 @@ import Copyright from './copyright.vue'
 </script>
 
 <template>
-    <div @click="toggleLanguagePopup" >
+    <div class="relative" @click="toggleLanguagePopup" >
         <MobileNavigation :open="mobileNavOpen" @togglenavbar="toggleNavbar"/>
 
         <Header :popup-state="languagePopupState" @togglenavbar="toggleNavbar"/>
@@ -37,7 +38,7 @@ import Copyright from './copyright.vue'
 
         <Footer/>
         
-        <nuxt-img class="fixed right-2 bottom-2 w-16 h-16 cursor-pointer" src="/whatsapp.png"/>
+        <StickyPhoneButton/>
 
         <Copyright/>
 
