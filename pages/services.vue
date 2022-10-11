@@ -1,8 +1,8 @@
 <script>
 import Animatable from '../components/animation/animatable.vue';
-import Landing from '../components/services/Landing.vue';
 import Service from '../components/services/Service.vue';
 import ReachUsForm from '../components/ReachUsForm.vue'
+import Landing from '../components/services/Landing.vue';
 export default {
     components: { Animatable, Landing, Service, ReachUsForm },
     data() {

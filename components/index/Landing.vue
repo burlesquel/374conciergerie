@@ -40,8 +40,8 @@ export default {
 
             <div class=" h-full z-1 text-white flex items-start flex-col justify-around p-8 ">
                 <div class="flex w-2/3 flex-col gap-8">
-                    <h1 class="heading text-5xl sm:text-6xl md:text-7xl bold">374 Conciergerie</h1>
-                    <h2 class="subheading text-2xl sm:text-3xl md:text-4xl bold">Your personal concierge service in Istanbul.
+                    <h1 class="heading text-5xl sm:text-6xl md:text-7xl bold">374 Conciergerie: Your personal concierge service in Istanbul.</h1>
+                    <h2 class="subheading text-2xl sm:text-3xl md:text-4xl bold">
 For a few days or a long time, for vacation or work, 374 Conciergerie makes your life easier.
 </h2>
                 </div>

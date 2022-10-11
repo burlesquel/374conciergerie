@@ -4,8 +4,9 @@ import Services from '../components/index/Services.vue';
 import Introduction from '../components/index/Introduction.vue';
 import Offers from '../components/index/Offers.vue';
 import Animatable from '../components/animation/animatable.vue';
+import ReachUsForm from '../components/ReachUsForm.vue';
 export default {
-  components: { Landing, Services, Introduction, Offers, Animatable },
+  components: { Landing, Services, Introduction, Offers, Animatable, ReachUsForm },
 
 }
 </script>
@@ -16,6 +17,7 @@ export default {
     <Introduction />
     <Services />
     <Offers />
+    <ReachUsForm/>
   </Animatable>
 </template>
 

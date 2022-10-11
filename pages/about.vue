@@ -3,8 +3,9 @@
 import Landing from '../components/about/Landing.vue';
 import WhoAreWe from '../components/about/WhoAreWe.vue';
 import Advantages from '../components/about/Advantages.vue';
+import ReachUsForm from '../components/ReachUsForm.vue';
     export default{
-    components:{ Animatable, Landing, WhoAreWe, Advantages }
+    components:{ Animatable, Landing, WhoAreWe, Advantages, ReachUsForm }
 }
 </script>
 
@@ -13,5 +14,6 @@ import Advantages from '../components/about/Advantages.vue';
         <Landing/>
         <WhoAreWe/>
         <Advantages/>
+        <ReachUsForm/>
     </Animatable>
 </template>

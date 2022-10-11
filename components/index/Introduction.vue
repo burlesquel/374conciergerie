@@ -22,17 +22,13 @@ export default {
                 concierges handpick the best providers to make your trip one-of-a-kind and unforgettable.
             </p>
             <p class="text-xl">
-                <bold class="font-semibold">The advantages of 374 Conciergerie</bold> <br/>
-            - A one-of-a-kind bespoke service in your picture<br/>
-            - The availability: Our concierges are available to you 24 hours a day, seven days a week. <br/>
-            - Optimizing your personal time <br/>
-            - Sharing our best addresses <br/>
-            - The VIP treatment <br/>
+                <span class="font-semibold">The advantages of 374 Conciergerie</span> <br />
+                - A one-of-a-kind bespoke service in your picture<br />
+                - The availability: Our concierges are available to you 24 hours a day, seven days a week. <br />
+                - Optimizing your personal time <br />
+                - Sharing our best addresses <br />
+                - The VIP treatment <br />
             </p>
-
-
-
-
         </div>
     </section>
 </template>

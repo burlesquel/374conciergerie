@@ -1,18 +1,17 @@
 <script>
 import Offer from '../Offer.vue';
+import SectionHeader from '../SectionHeader.vue';
 export default {
     components: {
-        Offer
-    }
+    Offer,
+    SectionHeader
+}
 }
 </script>
     
 <template>
     <section class="flex flex-col p-4 gap-8 items-center bg-white w-full">
-        <div>
-            <h1 class="text-center text-5xl text-gray-900 m-4">Adhesion</h1>
-            <div class="h-0.5 bg-logorange"></div>
-        </div>
+        <SectionHeader text="Adhesion"/>
         <div class="flex flex-row justify-evenly w-full flex-wrap">
             <Offer image_uri="/sea-voyage-to-bosphorus-strait.webp" header="Silver" :price="50" service="24 hours"
                  />
