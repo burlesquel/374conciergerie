@@ -28,8 +28,8 @@ export default {
     <section class="relative w-full h-90vh bg-gray-100">
         <!-- <Header /> -->
         <video v-if="screenSize.width > 640"
-            class="hidden sm:flex h-wfull w-full bg-gray-300 object-cover object-bottom"
-            autoplay playsinline id="myVideo">
+            class="hidden sm:flex h-full w-full bg-gray-300 object-cover object-bottom"
+            autoplay muted playsinline id="myVideo">
             <source src="~/assets/entrance_video.webm" type="video/webm">
         </video>
 
