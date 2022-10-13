@@ -9,7 +9,7 @@ export default {
 <template>
   <section class="p-12 bg-gray-50 flex flex-col items-center gap-4 w-full">
 
-    <SectionHeader text="Our Services"/>
+    <SectionHeader text="Discover Our Services"/>
 
     <div class="flex flex-row flex-wrap justify-around">
       <Service heading="Shopping"

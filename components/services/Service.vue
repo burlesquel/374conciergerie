@@ -15,12 +15,7 @@ export default {
         <div class="w-full md:w-1/2 flex flex-col justify-center gap-4 md:gap-8 animation-element"
             :class="{'fade-right': mode === 0, 'fade-left': mode === 1}">
             <h1 :class="{'md:text-left':mode === 0, 'md:text-right':mode===1}" class="text-4xl semibold">{{heading}}</h1>
-            <p :class="{'md:text-left':mode === 0, 'md:text-right':mode===1}">{{content}} Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Excepturi inventore ex numquam saepe
-                eum expedita commodi voluptatum natus, esse quisquam molestias enim voluptatem animi nisi error tempore
-                ea hic sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus cumque quisquam
-                eaque iure nemo ipsam consequatur totam itaque eos mollitia corporis, dolore dignissimos velit
-                perferendis doloribus magni et quo.</p>
+            <p :class="{'md:text-left':mode === 0, 'md:text-right':mode===1}">{{content}}</p>
         </div>
     </section>
 </template>
