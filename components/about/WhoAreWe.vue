@@ -43,7 +43,6 @@ export default {
                     members utilizing my knowledge gained while working alongside the best Clefs d'or concierges of the
                     largest French palaces where I was able to work. Because each of our members has a distinct
                     personality, we tailor each of our services to you and only you. Welcome in 374 Conciergerie.
-
                 </p>
             </div>
             <div class="w-full md:w-2/5 p-8">

@@ -25,10 +25,12 @@ export default {
 </script>
 
 <template>
-    <Animatable>
-        <Landing />
+    <Animatable >
+        <div class="flex flex-row flex-wrap w-full justify-evenly bg-gray-50 p-4">
+            <Landing />
         <Service v-for="service of services" :key="service.heading" :image="service.image" :heading="service.heading"
             :content="service.content" :mode="service.mode" />
+        </div>
         <ReachUsForm/>
     </Animatable>
 </template>
