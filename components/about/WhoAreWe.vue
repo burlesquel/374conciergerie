@@ -29,7 +29,7 @@ export default {
             </div>
             <div class="w-full md:w-1/2 p-8">
                 <nuxt-img class="object-contain  rounded-md"
-                    src="/kiz-kulesi-maidens-tower-at-night-in-istanbul-turk.webp" />
+                    src="/kiz_kulesi.png" />
             </div>
         </div>
         <div class="flex flex-col md:flex-row-reverse justify-around items-center">

@@ -9,17 +9,12 @@ export default {
     data() {
         return {
             images: [
-                "dentist",
-                "empty-football-stadium",
-                "happy-romantic-couple-moving-away-from-private-hel",
-                "helicopter-flying-overhead-against-blue-sky-and-wh",
-                "hotel-room-or-apartment-doorway",
-                "luxurious-yacht-illuminated",
-                "main-in-car",
-                "restaurant",
-                "young-woman-touching-turkish-lamps-for-sale-in-the"
+                "airplane",
+                "car_inside",
+		"cars",
+"dentist", "girl_laying_aganist_landscape", "helicopter", "restaurant", "shopping", "soccer", "yacht_under_bridge"
             ],
-            currentImage:"dentist"
+            currentImage:"helicopter"
         }
     },
     mounted(){
@@ -44,7 +39,7 @@ export default {
             sm:text-6xl md:text-7xl lg:text-8xl font-light fade-up text-white">
                 SERVICES</span>
         </div>
-        <nuxt-img class="object-cover h-full w-full" :src="`/carousel/${currentImage}.webp`" />
+        <nuxt-img class="object-cover h-full w-full" :src="`/carousel/${currentImage}.png`" />
     </section>
 </template>
     
