@@ -1,7 +1,10 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  ssr:false,
+  ssr: false,
+  server: {
+    host: "0.0.0.0"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '374conciergerie',
@@ -23,6 +26,10 @@ export default {
         crossorigin: "anonymous",
         referrerpolicy: "no-referrer"
       }
+    ],
+    script: [
+      { src: "https://popupsmart.com/freechat.js", body:true },
+      { src: '/popup.js', body:true}
     ]
   },
 
@@ -49,6 +56,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/i18n'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -57,12 +65,28 @@ export default {
     baseURL: '/',
   },
 
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json'
+      },
+      {
+        code: 'fr',
+        file: 'fr.json'
+      }
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en'
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-		loaders: {
-			css: {
-				modules: false,
-			},
-		},
-	}
+    loaders: {
+      css: {
+        modules: false,
+      },
+    },
+  }
 }

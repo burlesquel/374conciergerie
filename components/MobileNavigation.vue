@@ -50,8 +50,8 @@ export default {
                     dir: "/about",
                 },
                 {
-                    name: "Media",
-                    dir: "/media",
+                    name: "Offers",
+                    dir: "/offers",
                 },
                 {
                     name: "Contact",
@@ -67,11 +67,11 @@ export default {
     <transition name="mobileNav">
         <div v-if="open" class="w-screen h-screen overflow-y-auto fixed z-30 top-0 bottom-0  right-0 ">
 
-            <div class="w-full h-full relative flex flex-col justify-evenly bg-white p-4 px-8 gap-4">
+            <div class="w-full h-full relative flex flex-col justify-center bg-white p-4 px-8 gap-4">
 
                 <i @click="toggleNavbar" class="fa-solid fa-x block text-3xl absolute right-4 top-4"></i>
 
-                <nuxt-img src="/logo.png" class="w-4/5 object-contain self-center" />
+                <!-- <nuxt-img src="/logo.png" class="w-4/5 object-contain self-center" /> -->
 
                 <div class="self-center">
                     <label>Language: </label>
@@ -83,7 +83,7 @@ export default {
                 </div>
 
 
-                <nav class="flex flex-col font-bold uppercase text-gray-600">
+                <nav class="flex flex-col font-bold uppercase text-gray-600 text-4xl">
                     <NuxtLink v-for="(item, index) in navigation_links" class="border-b p-2"
                         :class="{'text-yellow-300':$route.name === item.dir.replace('/', '')}"
                         :to="item.dir.includes('index') ? '/' : item.dir" :key="index" @click.native="toggleNavbar()">

@@ -38,7 +38,7 @@ import StickyPhoneButton from '../components/StickyPhoneButton.vue';
 
         <Footer/>
         
-        <StickyPhoneButton/>
+        <!-- <StickyPhoneButton/> -->
 
         <Copyright/>
 

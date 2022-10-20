@@ -20,8 +20,8 @@ export default {
           dir: "/about",
         },
         {
-          name: "Media",
-          dir: "/media",
+          name: "Offers",
+          dir: "/offers",
         },
         {
           name: "Contact",

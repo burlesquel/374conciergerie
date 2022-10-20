@@ -31,7 +31,7 @@ export default {
 
             </div>
 
-            <nuxt-img class="hidden md:block md:w-1/3 object-contain" src="/logo.png"/>
+            <nuxt-img class="hidden md:block md:w-1/3 object-contain" src="/logo_bg_removed.png"/>
 
         </div>
     </section>

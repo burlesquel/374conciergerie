@@ -35,7 +35,8 @@ export default {
         <div class="flex flex-col md:flex-row-reverse justify-around items-center">
             <div class="w-full md:w-1/2 p-4 text-lg">
                 <h1 class="font-semibold text-2xl mb-8">
-                    Arthur Aubin </h1>
+                    Our General Manager <br/> Arthur Aubin </h1>
+                    <i class="fa-solid fa-quote-left"></i>
                 <p>
                     Concierge work is above all a passion for me, it is a daily challenge for me to provide our members
                     with a one-of-a-kind and unforgettable experience. The hotel concierge is one of the most beautiful
@@ -44,6 +45,7 @@ export default {
                     largest French palaces where I was able to work. Because each of our members has a distinct
                     personality, we tailor each of our services to you and only you. Welcome in 374 Conciergerie.
                 </p>
+                <i class="fa-solid fa-quote-right float-right"></i>
             </div>
             <div class="w-full md:w-2/5 p-8">
                 <nuxt-img class="object-contain  rounded-md" src="/arthur.png" />

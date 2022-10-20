@@ -17,7 +17,8 @@ export default {
                 { image: "/carousel/soccer.png", heading: "Access", content: "We supply you with tickets to the finest events, whether it is a football match in a unique environment in the globe, a concert, or an opera.", mode: 1 },
                 { image: "/carousel/airplane.png", heading: "Travel", content: "For your convenience, our concierges will plan your journey. You may also book private flights from anywhere in the world.", mode: 0 },
                 { image: "/carousel/car_inside.png", heading: "Transportation", content: "Private driver, airport transfer, private van, or everyday travel, we reserve your travels whenever and wherever you choose.", mode: 1 },
-                { image: "/carousel/restaurant.png", heading: "Restaurant", content: "We find the most exquisite tables for sumptuous and unforgettable occasions.", mode: 0 }
+                { image: "/carousel/restaurant.png", heading: "Restaurant", content: "We find the most exquisite tables for sumptuous and unforgettable occasions.", mode: 0 },
+                { image: "/carousel/light_bulb.jpg", heading: "Daily Services and more", content: "Our concierges are available to you on a daily basis for any and all of your demands. Your specific requests are a great challenge for our employees, who will do everything in their power to accommodate you.", mode: 0 },
             ]
         }
     }
@@ -27,7 +28,7 @@ export default {
 <template>
     <Animatable>
         <Landing />
-        <section class="flex flex-row flex-wrap w-full justify-evenly bg-gray-50 p-4">
+        <section class="flex flex-row flex-wrap text-center w-full justify-evenly bg-gray-50 p-4">
             <Service v-for="service of services" :key="service.heading" :image="service.image"
                 :heading="service.heading" :content="service.content" :mode="service.mode" />
         </section>
