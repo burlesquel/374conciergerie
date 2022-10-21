@@ -26,7 +26,7 @@ export default {
       <span>FAQs</span>
       <span>Events</span>
     </div>
-    <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
+    <!-- <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
       <h1 class="text-3xl">Social</h1>
       <span class="h-px w-full bg-white"></span>
       <div class="flex flex-row gap-4">
@@ -53,7 +53,7 @@ export default {
         <span>+90 543 184 10 21</span>
       </span>
       </div>
-    </div>
+    </div> -->
 
   </footer>
 </template>

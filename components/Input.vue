@@ -29,7 +29,7 @@ export default {
     <div :class="{'container':!active, 'container container-active':active}">
         <input v-if="type === 0" class="input shadow" :name="name" v-model="value" ref="input" @blur="on_blur()"
             @focus="active = true" />
-        <textarea rows="4" :placeholder="placeholder" class="input" v-else></textarea>
+        <textarea rows="4" :placeholder="placeholder" :name="name" class="input" v-else></textarea>
         <div v-if="type === 0" @click="focus_on_input()"
             class="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-start cursor-text pointer-events-none select-none">
             <span :class="{'placeholder':!active, 'placeholder placeholder-active':active}">{{placeholder}}</span>
