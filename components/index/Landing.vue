@@ -54,14 +54,14 @@ export default {
         </div>
 
         <nuxt-img v-if="screenSize.width < 640" class="h-full w-full object-cover object-center absolute"
-            src="/landing_image.png" />
+            src="/landing_compressed.gif" />
 
         <div v-if="screenSize.width < 640" class="w-full h-full z-10 relative">
-            <div class=" h-full z-1 text-white flex items-start flex-col justify-between px-8 py-16 ">
+            <div class=" h-full z-1 text-white flex items-start flex-col justify-end px-8 py-16 ">
 
-                <h1 class="heading text-4xl sm:text-5xl md:text-6xl bold text-gray-800">374 Conciergerie: Your private
+                <!-- <h1 class="heading text-4xl sm:text-5xl md:text-6xl bold text-gray-800">374 Conciergerie: Your private
                     concierge
-                    service in Istanbul.</h1>
+                    service in Istanbul.</h1> -->
                 <!-- <h2 class="subheading text-2xl sm:text-3xl md:text-4xl bold">
 For a few days or a long time, for vacation or work, 374 Conciergerie makes your life easier.
 </h2> -->
