@@ -54,7 +54,7 @@ export default {
             class="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50 z-10">
             <span class=" animation-element w-full text-5xl 
             sm:text-6xl md:text-7xl lg:text-8xl font-light fade-up text-white">
-                OUR SERVICES</span>
+                {{$t('services').landing}}</span>
         </div>
         <video ref="video" v-if="screenSize.width > 640"
             class="relative h-full w-full bg-gray-300 object-cover object-bottom" autoplay muted playsinline loop

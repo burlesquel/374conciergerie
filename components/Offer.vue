@@ -19,10 +19,10 @@ export default {
         </h1>
         <span class="w-1/2 h-px bg-black"></span>
         <h1 class="text-xl">
-            {{service}} service
+            {{service}}
         </h1>
-        <h1 class="text-xl" v-if="seven_twentyfour">7 days a week and 24 hours a day</h1>
-        <h1 class="text-xl">Dedicated concierge</h1>
-        <h1 class="text-xl">Unlimited number of requests</h1>
+        <h1 class="text-xl" v-if="seven_twentyfour">{{$t('index').offers.seven_twentyfour}}</h1>
+        <h1 class="text-xl">{{$t('index').offers.dedicated_concierge}}</h1>
+        <h1 class="text-xl">{{$t('index').offers.unlimited_requests}}</h1>
     </div>
 </template>

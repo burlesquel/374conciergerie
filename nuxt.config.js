@@ -74,6 +74,10 @@ export default {
       {
         code: 'fr',
         file: 'fr.json'
+      },
+      {
+        code:"tr",
+        file:"tr.json"
       }
     ],
     lazy: true,

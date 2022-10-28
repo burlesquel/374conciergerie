@@ -49,30 +49,29 @@ export default {
 
 <template>
     <section class="p-4 bg-white w-full flex flex-col items-center gap-8">
-        <SectionHeader text="Contact" />
+        <SectionHeader :text="$t('contact').heading" />
         <div class="flex w-full flex-col md:flex-row justify-around items-center">
 
             <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col items-center gap-8">
-                <h1 class="text-3xl font-semibold self-center">Reach us</h1>
+                <h1 class="text-3xl font-semibold self-center">{{$t('contact').reach_us}}</h1>
                 <span class="h-px w-1/2 bg-black"></span>
-                <span class="font-light self-center">Our representatives will be in contact within 24 hours.</span>
+                <span class="font-light self-center">{{$t('contact').our_rep_will_be_in_contact}}</span>
                 <form @submit="form_handler" class="flex flex-col w-full gap-4 p-8 border shadow">
-                    <Input name="name" placeholder="Name" />
-                    <Input name="email" placeholder="E-mail" />
-                    <Input :type="1" name="message" placeholder="Your message" />
+                    <Input name="name" :placeholder="$t('contact').name" />
+                    <Input name="email" :placeholder="$t('contact').email" />
+                    <Input :type="1" name="message" :placeholder="$t('contact').your_message" />
                     <button type="submit" class="bg-logorange text-white p-2 inline self-center rounded border">
-                        Send
+                        {{$t('contact').send}}
                     </button>
-                    <span v-if="success" class="text-green-600 font-semibold">We just received your mail! We will be in
-                        contact within x hour.</span>
+                    <span v-if="success" class="text-green-600 font-semibold">{{$t('contact').message_received}}</span>
                 </form>
 
             </div>
 
             <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex flex-col gap-8 items-center">
-                <h1 class="text-3xl font-semibold "> Social </h1>
+                <h1 class="text-3xl font-semibold "> {{$t('contact').social}} </h1>
                 <div class="h-px w-1/2 bg-black"></div>
-                <span class="text-lg">Follow us on:</span>
+                <span class="text-lg">{{$t('contact').follow_us}}</span>
 
                 <div class="flex flex-row gap-4">
                     <a target="_blank" href="https://www.instagram.com/374conciergerie/"
@@ -93,7 +92,7 @@ export default {
                     </span> -->
                 </div>
 
-                <span class="text-lg">Or call us on</span>
+                <span class="text-lg">{{$t('contact').or_call_us}}</span>
                 <a href="tel:" class="text-3xl font-semibold">+90 543 184 1021</a>
                 <div>
 

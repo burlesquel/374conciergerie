@@ -12,23 +12,12 @@ export default {
             src="/introduction.png" />
         <div
             class="animation-element fade-right w-full md:w-1/2 p-2 md:p-8 flex flex-col gap-8 justify-center font-light">
-            <h1 class="text-5xl ">Travel
+            <h1 class="text-5xl ">{{$t('index').introduction.header.travel}}
                 <TypeWriter class="text-yellow-800" :speed="100" :delay="500"
-                    :words='["exclusively", "privileged", "first-class"]' />
+                    :words="$t('index').introduction.header.typewriter_words" />
             </h1>
-            <p class="text-xl"> 374 Conciergerie's goal is to allow its members to travel in peace. You intend to visit
-                Turkey, enjoy first-class service and let our concierges handle your requests from the most basic to the
-                most complex. We create a completely personalized service for you based on your preferences. Our
-                concierges handpick the best providers to make your trip one-of-a-kind and unforgettable.
+            <p class="text-xl"> {{ $t('index').introduction.content }}
             </p>
-            <!-- <p class="text-xl">
-                <span class="font-semibold">The advantages of 374 Conciergerie</span> <br />
-                - A one-of-a-kind bespoke service in your picture<br />
-                - The availability: Our concierges are available to you 24 hours a day, seven days a week. <br />
-                - Optimizing your personal time <br />
-                - Sharing our best addresses <br />
-                - The VIP treatment <br />
-            </p> -->
         </div>
     </section>
 </template>

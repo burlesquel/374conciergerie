@@ -11,15 +11,20 @@ export default {
     
 <template>
     <section class="flex flex-col p-4 gap-8 items-center bg-white w-full">
-        <SectionHeader text="Offers" />
+        <SectionHeader :text="$t('index').offers.heading" />
         <div class="flex flex-row justify-evenly w-full flex-wrap">
-            <Offer image_uri="/silver.png" header="Silver" :price="50" service="24 hours" />
-            <Offer image_uri="/gold.png" header="Gold" :price="90"
-                service="3 days" :seven_twentyfour="true" />
-            <Offer image_uri="/platinum.png" header="Platinum" :price="150" service="7 days"
+
+            <Offer image_uri="/silver.png" header="Silver" :price="50"
+                :service="$t('index').offers.twentyfour_hours" />
+
+            <Offer image_uri="/gold.png" header="Gold" :price="90" :service="$t('index').offers.three_days"
                 :seven_twentyfour="true" />
-            <Offer image_uri="/diamond.png" header="Diamond" :price="350"
-                service="1 month" :seven_twentyfour="true" />
+
+            <Offer image_uri="/platinum.png" header="Platinum" :price="150" :service="$t('index').offers.seven_days"
+                :seven_twentyfour="true" />
+
+            <Offer image_uri="/diamond.png" header="Diamond" :price="350" :service="$t('index').offers.one_month"
+                :seven_twentyfour="true" />
 
         </div>
     </section>

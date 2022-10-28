@@ -1,0 +1,200 @@
+{
+    "message": "Merhaba",
+    "navigation_links": [
+        {
+            "name": "Ana Sayfa",
+            "dir": "/index"
+        },
+        {
+            "name": "Servislerimiz",
+            "dir": "/services"
+        },
+        {
+            "name": "Hakkımızda",
+            "dir": "/about"
+        },
+        {
+            "name": "Teklifler",
+            "dir": "/offers"
+        },
+        {
+            "name": "İletişim",
+            "dir": "/contact"
+        }
+    ],
+    "index": {
+        "introduction": {
+            "header": {
+                "travel": "Seyahatin artık",
+                "typewriter_words": [
+                    "ayrıcalıklı",
+                    "özgür",
+                    "birinci-sınıf"
+                ]
+            },
+            "content": "374 Concergerie olarak hedefimiz müşterilerimize rahat bir seyahat süreci yaşatmaktır. Türkiye'ye bir ziyaret düşünüyorsanız, en karmaşıktan en basit ihtiyaçlarınıza kadar konsiyerjlerimize kendinizi emanet edebilir ve birinci sınıf seyahatinizin keyfini çıkarabilirsiniz. Biz ise sizin ihtiyaçlarınızı baz alıp tamamıyla kişiselleştirilmiş bir deneyim yaşatarak bu seyahatinizi eşsiz ve unutulmaz yapıyor olacağız.  "
+        },
+        "services": {
+            "header": "Servislerimizi keşfedin",
+            "services": [
+                {
+                    "header": "Alışveriş",
+                    "content": "Büyük bir markanın nadir ürünlerini bul veya özel bir alışveriş asistanı ile tanış..."
+                },
+                {
+                    "header": "Seyahat",
+                    "content": "Seyahat organizasyonu, otel, özel ev, araba kiralama, havalimanı transferi, özel jet, özel şoför..."
+                },
+                {
+                    "header": "Biletler",
+                    "content": "Futbol maçları, tenis turnuvaları, box maçları ve diğer spor dalları için biletler; konserler, gösteriler ve operalar için rezervasyon..."
+                },
+                {
+                    "header": "Etkinlikler",
+                    "content": "Özel bir mekanda doğum günü organizasyonları, özel bir şef ve mutfak personeli ile kişisel evinizde organizasyonlar..."
+                },
+                {
+                    "header": "Aktiviteler",
+                    "content": "Gemi, helikopter, seyahat rehberi, spor aktiviteleri, ekstrem sporlar, veya sadece sürpriz bir çiçek eşliğinde romantik bir akşam yemeği..."
+                },
+                {
+                    "header": "Günlük İhtiyaçlar",
+                    "content": "Telefon, ulaşım kartları, bebek bakıcısı, veya herhangi bir ihtiyaç..."
+                }
+            ]
+        },
+        "offers":{
+            "heading":"Tekliflerimiz",
+            "twentyfour_hours":"24 saatlik servis",
+            "three_days":"3 günlük servis",
+            "seven_days":"7 günlük servis",
+            "one_month":"1 aylık servis",
+            "seven_twentyfour":"Haftanın 7 günü 24 saat",
+            "dedicated_concierge":"Özel konsiyerj",
+            "unlimited_requests":"Sınırsız hizmet"
+        }
+    },
+    "contact":{
+        "heading":"İletişim",
+        "reach_us":"Bize ulaşın",
+        "our_rep_will_be_in_contact":"Temsilcilerimiz 24 saat içerisinde irtibata geçecek.",
+        "name":"İsim",
+        "email":"E-posta",
+        "your_message":"Mesajınız",
+        "send":"Gönder",
+        "message_received":"Mesajınızı aldık! x saat içerisinde irtibata geçeceğiz.",
+        "social":"Sosyal",
+        "follow_us":"Bizi takip edin",
+        "or_call_us":"Veya bizi arayın"
+    },
+    "services": {
+        "landing": "SERVİSLERİMİZ",
+        "services": [
+            {
+                "image": "/carousel/helicopter.png",
+                "heading": "Aktiviteler",
+                "content": "Kalacağınız süre boyunca yapacağınız aktiviteleri düzenliyor, eşsiz mekanlarda ve en iyi yolculuk fikirlerinizi hayata geçirmenizi sağlıyoruz.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/yacht_under_bridge.png",
+                "heading": "Yat",
+                "content": "İstanbul, ortasından geçen boğazı ile eşsiz bir metropol. Size özel bir yatta kahvaltı edip gününüzü geçirmekten daha harika ne olabilir ki?",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/cars.png",
+                "heading": "Arabalar",
+                "content": "Yolculuğunuz için geniş bir aile arabası, komforlu bir sedan veya bir spor otomobilinin tadını çıkarın.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/shopping.png",
+                "heading": "Alışveriş",
+                "content": "Gardolabınız için en eşsiz eşyalara ulaşıyoruz. Ayrıca yolculuğunuzda size özel bir alışveriş asistanı ayarlıyoruz.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/girl_laying_against_landscape.png",
+                "heading": "Oteller",
+                "content": "En iyi otellerin tadını çıkarın. İhtiyaçlarınıza özel olarak size bir kalma planı düzenliyoruz ve sizin için en iyi otelleri seçiyoruz.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/dentist.png",
+                "heading": "Medikal",
+                "content": "Müşterilerimizi saç/sakal ekimi, burun estetiği ve diş bakımı gibi özel tedavilerle birinci sınıf kliniklerde buluşturuyoruz.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/soccer.png",
+                "heading": "Erişim",
+                "content": "Sizlere futbol maçları, konserler ve operalar gibi en iyi etkinlikler için biletler sağlıyoruz.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/airplane.png",
+                "heading": "Yolculuk",
+                "content": "Sizin rahatınız için konsiyerjlerimiz yolculuğunuzu organize edecek. Dünyanın her yerinden özel uçuşlara rezervasyon yapabilirsiniz.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/car_inside.png",
+                "heading": "Ulaşım",
+                "content": "Özel şoför, havalimanı transferi, özel minibüs; yolculuklarınızı mekan farketmeksizin rezerve ediyoruz.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/restaurant.png",
+                "heading": "Restorant",
+                "content": "En seçkin masalarda görkemli ve unutulmaz ortamlar yaratıyoruz.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/light_bulb.jpg",
+                "heading": "Günlük ihtiyaçlar ve fazlası",
+                "content": "Konsiyerjlerimiz herhangi bir isteğiniz için günlük olarak sizlere hazır olacak. Spesifik istekleriniz çalışanlarımız için bir imtihana dönüşecek ve elimizden gelen her şeyi yapmaya hazır olacağız.",
+                "mode": 0
+            }
+        ]
+    },
+    "about": {
+        "landing": "HAKKIMIZDA",
+        "whoarewe": {
+            "heading": "Biz kimiz?",
+            "content1": [
+                "Bize miras bırakılan ve müşterilerimizin günlük hayatlarına dahil etmek istediğimiz seçkin konsiyerj hizmetlerimiz ve ideallerimiz ile gurur duyuyoruz. Bir adres defteri ve eşsiz bir ağa sahip olan 374 Conciergerie, müşterilerini memnun etmek ve başka yerde bulunmayan kişiselleştirilmiş bir hizmet sunmayı ilke haline getirmiştir. Müşterilerimizin isteklerini karşılamak için İstanbul'da bizimle aynı değer ve ilkeleri paylaşan insanlar ile bir sistem kurduk. Size harika bir deneyim yaşatmak için günün her saati aktifiz. ",
+                "Müşterilerimizin talepleri her ne olursa olsun 374 Conciergerie tüm kaynakları ile hazırda ulaşılabilir konumdadır. İsteğiniz imkansız veya olağandışı görünse bile en uygun servisi optimal şekilde belirleriz. Tüm istekleriniz tarafımızdan organize ediliyor, öngörülüyor ve yerine getiriliyor."
+            ],
+            "content2": {
+                "general_manager": "Genel Müdürümüz",
+                "quote": "Konsiyerjlik benim için tanım olarak müşterilerimize eşsiz ve unutulmaz bir deneyim sunmak için günlük bir mücadele, her şeyden önde bir tutku ve dünyanın en güzel işlerinden biri. Tam olarak bu yüzden en büyük Fransız saraylarında en iyi Clefs d'or konsiyerjleri ile birlikte çalışırken edindiğim tecrübeleri kullanarak 374 Conciergerie müşterileri için aynı atmosferi yakalamak bireysel hedefimdir. Müşterilerimizin her birinin farklı kişilikte olduğunu biliyor ve onlara kişiselleştirilmiş bir servis uyarlıyoruz. 374 Conciergerie'ye hoş geldiniz."
+            }
+        },
+        "advantages": {
+            "heading":"Neden bizi seçmelisiniz?",
+            "advantages":[
+                {
+                    "heading": "Eşsiz Servis",
+                    "content": "Benzersiz ve ısmarlama hizmet anlayışı.",
+                    "icon": "fa-solid fa-diamond"
+                },
+                {
+                    "heading": "Hazır Bulunma",
+                    "content": "Konsiyerjlerimiz haftanın 7 günü 24 saat hizmete hazır durumda.",
+                    "icon": "fa-regular fa-clock"
+                },
+                {
+                    "heading": "Kişiselleştirme",
+                    "content": "Kişisel zamanınızı optimize ediyoruz.",
+                    "icon": "fa-solid fa-person"
+                },
+                {
+                    "heading": "Ayrıcalıklı",
+                    "content": "En iyi kaynaklarımızı VIP hizmetler ile harmanlıyoruz.",
+                    "icon": "fa-regular fa-gem"
+                }
+            ]
+        }
+    }
+}

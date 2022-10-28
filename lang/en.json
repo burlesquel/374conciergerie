@@ -1,3 +1,200 @@
 {
-    
+    "message": "Hello",
+    "navigation_links": [
+        {
+            "name": "Home",
+            "dir": "/index"
+        },
+        {
+            "name": "Services",
+            "dir": "/services"
+        },
+        {
+            "name": "About Us",
+            "dir": "/about"
+        },
+        {
+            "name": "Offers",
+            "dir": "/offers"
+        },
+        {
+            "name": "Contact",
+            "dir": "/contact"
+        }
+    ],
+    "index": {
+        "introduction": {
+            "header": {
+                "travel": "Travel",
+                "typewriter_words": [
+                    "exclusively",
+                    "privileged",
+                    "first-class"
+                ]
+            },
+            "content": "374 Conciergerie's goal is to allow its members to travel in peace. You intend to visit Turkey, enjoy first-class service and let our concierges handle your requests from the most basic to the most complex. We create a completely personalized service for you based on your preferences. Our concierges handpick the best providers to make your trip one-of-a-kind and unforgettable."
+        },
+        "services": {
+            "header": "Discover our services",
+            "services": [
+                {
+                    "header": "Shopping",
+                    "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, meet a personal shopper need."
+                },
+                {
+                    "header": "Travel",
+                    "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver, availability..."
+                },
+                {
+                    "header": "Ticketing",
+                    "content": "Tickets for a football match, tennis tournament, boxing match or other sporting event. Reservation of places for concerts, shows, operas…"
+                },
+                {
+                    "header": "Events",
+                    "content": "Organization of birthdays with privatization of a place, organization of parties with provision of a chef or caterer at home..."
+                },
+                {
+                    "header": "Activities",
+                    "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with delivery of a bouquet of flowers."
+                },
+                {
+                    "header": "Daily Service",
+                    "content": "Phone plan, transportation card, babysitter, or any other need..."
+                }
+            ]
+        },
+        "offers": {
+            "heading": "Offers",
+            "twentyfour_hours": "24 hours service",
+            "three_days": "3 days service",
+            "seven_days": "7 days service",
+            "one_month": "1 month service",
+            "seven_twentyfour": "7 days a week and 24 hours a day",
+            "dedicated_concierge": "Dedicated concierge",
+            "unlimited_requests": "Unlimited number of requests"
+        }
+    },
+    "contact": {
+        "heading": "Contact",
+        "reach_us": "Reach us",
+        "our_rep_will_be_in_contact": "Our representatives will be in contact within 24 hours.",
+        "name": "Name",
+        "email": "E-mail",
+        "your_message": "Your message",
+        "send": "Send",
+        "message_received": "We just received your mail! We will be in contact within x hour.",
+        "social": "Social",
+        "follow_us": "Follow us on:",
+        "or_call_us": "Or call us on:"
+    },
+    "services": {
+        "landing": "OUR SERVICES",
+        "services": [
+            {
+                "image": "/carousel/helicopter.png",
+                "heading": "Activities",
+                "content": "We manage your activities throughout your stay, enjoy unique addresses, the greatest travel ideas, and most importantly, peace of mind.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/yacht_under_bridge.png",
+                "heading": "Yacht",
+                "content": "Istanbul is a one-of-a-kind metropolis because to the Bosphorus, which runs through it. What could be more magnificent than having breakfast, spending the day or evening aboard a private yacht just you?",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/cars.png",
+                "heading": "Cars",
+                "content": "Enjoy a vehicle for your travels, a family automobile, a comfort sedan, or the sports car of your desires.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/shopping.png",
+                "heading": "Shopping",
+                "content": "We're looking for the most unique things for your wardrobe. We also provide a personal shopper for your shopping trips.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/girl_laying_against_landscape.png",
+                "heading": "Hotels",
+                "content": "Take advantage of the greatest hotels. We plan your stay with solutions tailored to your needs and pick the most renowned establishments for you.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/dentist.png",
+                "heading": "Medical",
+                "content": "We link our customers with the top clinics for all forms of treatment, including hair transplant, rhinoplasty, beard transplant, dental care, and much more...",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/soccer.png",
+                "heading": "Access",
+                "content": "We supply you with tickets to the finest events, whether it is a football match in a unique environment in the globe, a concert, or an opera.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/airplane.png",
+                "heading": "Travel",
+                "content": "For your convenience, our concierges will plan your journey. You may also book private flights from anywhere in the world.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/car_inside.png",
+                "heading": "Transportation",
+                "content": "Private driver, airport transfer, private van, or everyday travel, we reserve your travels whenever and wherever you choose.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/restaurant.png",
+                "heading": "Restaurant",
+                "content": "We find the most exquisite tables for sumptuous and unforgettable occasions.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/light_bulb.jpg",
+                "heading": "Daily Services and more",
+                "content": "Our concierges are available to you on a daily basis for any and all of your demands. Your specific requests are a great challenge for our employees, who will do everything in their power to accommodate you.",
+                "mode": 0
+            }
+        ]
+    },
+    "about": {
+        "landing": "ABOUT US",
+        "whoarewe": {
+            "heading": "Who are we?",
+            "content1": [
+                "We are proud of our ideals and have as a heritage the most prominent hotel conciergerie, which we intended to transfer into our customers' daily life. 374 Conciergerie relies on an address book and a great network to provide us with benefits not available elsewhere in order to please our clients and provide individualized service. To satisfy our clients' demands, we have set up a system in Istanbul with partners that share our principles. We are here to provide you with an amazing experience and to assist your project around the clock.",
+                "Whatever their demands, our guests always have access to all of the resources of 374 Conciergerie. We systematically identify the optimal answer, even if it appears impossible or unusual. All of your aspirations are organized by us, we anticipate and take action."
+            ],
+            "content2": {
+                "general_manager": "Our General Manager",
+                "quote": "Concierge work is above all a passion for me, it is a daily challenge for me to provide our members with a one-of-a-kind and unforgettable experience. The hotel concierge is one of the most beautiful jobs in the world to me, which is why I want to capture this atmosphere for our 374 Conciergerie members utilizing my knowledge gained while working alongside the best Clefs d'or concierges of the largest French palaces where I was able to work. Because each of our members has a distinct personality, we tailor each of our services to you and only you. Welcome in 374 Conciergerie."
+            }
+        },
+        "advantages": {
+            "heading":"Why choose us?",
+            "advantages":[
+                {
+                    "heading": "Unique Service",
+                    "content": "A one-of-a-kind bespoke service in your picture.",
+                    "icon": "fa-solid fa-diamond"
+                },
+                {
+                    "heading": "Availability",
+                    "content": "Our concierges are available to you 24 hours a day, seven days a week.",
+                    "icon": "fa-regular fa-clock"
+                },
+                {
+                    "heading": "Personalization",
+                    "content": "Optimizing your personal time.",
+                    "icon": "fa-solid fa-person"
+                },
+                {
+                    "heading": "Exclusive",
+                    "content": "Sharing our best addresses along with the VIP treatment.",
+                    "icon": "fa-regular fa-gem"
+                }
+            ]
+        }
+    }
 }
