@@ -69,14 +69,17 @@ export default {
     locales: [
       {
         code: 'en',
+        name:"English",
         file: 'en.json'
       },
       {
         code: 'fr',
+        name:"Français",
         file: 'fr.json'
       },
       {
         code:"tr",
+        name:"Türkçe",
         file:"tr.json"
       }
     ],

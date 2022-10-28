@@ -81,8 +81,8 @@ export default {
     <div class="relative flex flex-col items-center gap-4">
       <i class="fa-solid fa-globe hidden sm:flex text-xl cursor-pointer" name="language-popup"></i>
       <div class="absolute flex flex-col bg-white text-black items-center top-7 text-lg border shadow rounded-sm"  v-if="popupState">
-        <span class="p-0.5 w-full hover:bg-yellow-200 cursor-pointer select-none" v-for="language in languages" :key="language.name">
-          <NuxtLink :to="switchLocalePath(language.code)" class=" ">{{language.name}}</NuxtLink>
+        <span :class="{'bg-yellow-300':language.code === $i18n.locale}" class="p-0.5 w-full hover:bg-yellow-200 cursor-pointer select-none" v-for="language in $i18n.locales" :key="language.name">
+          <NuxtLink :to="switchLocalePath(language.code)">{{language.name}}</NuxtLink>
           <!-- <span v-if="languages.indexOf(language) !== languages.length-1" class="w-full h-px bg-black"></span> -->
         </span>
       </div>

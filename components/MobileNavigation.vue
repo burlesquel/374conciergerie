@@ -13,51 +13,15 @@ export default {
         },
         toggleNavbar() {
             this.$emit("togglenavbar")
+        },
+        changeLocale(code){
+            this.$i18n.setLocale(code)
+            this.toggleNavbar()
         }
     },
     data() {
         return ({
             submenuOpen: false,
-            services: [
-                {
-                    name: "Service1",
-                    url: "/Service1",
-                },
-                {
-                    name: "Service2",
-                    url: "/Service1",
-                },
-                {
-                    name: "Service3",
-                    url: "/Service1",
-                },
-                {
-                    name: "Service4",
-                    url: "/Service1",
-                },
-            ],
-            navigation_links: [
-                {
-                    name: "Home",
-                    dir: "/index",
-                },
-                {
-                    name: "Services",
-                    dir: "/services",
-                },
-                {
-                    name: "About Us",
-                    dir: "/about",
-                },
-                {
-                    name: "Offers",
-                    dir: "/offers",
-                },
-                {
-                    name: "Contact",
-                    dir: "/contact"
-                }
-            ],
         })
     }
 }
@@ -71,23 +35,20 @@ export default {
 
                 <i @click="toggleNavbar" class="fa-solid fa-x block text-3xl absolute right-4 top-4"></i>
 
-                <!-- <nuxt-img src="/logo.png" class="w-4/5 object-contain self-center" /> -->
-
                 <div class="self-center">
                     <label>Language: </label>
-                    <select class="inline">
-                        <option>Türkçe</option>
-                        <option>English</option>
-                        <option>Deutsch</option>
+                    <select class="inline" @change="(e) => changeLocale(e.target.value)">
+                        <option :selected="language.code === $i18n.locale" v-for="language in $i18n.locales" :key="language.code" :value="language.code">
+                            {{language.name}}
+                        </option>
                     </select>
                 </div>
 
-
-                <nav class="flex flex-col font-bold uppercase text-gray-600 text-4xl">
-                    <NuxtLink v-for="(item, index) in navigation_links" class="border-b p-2"
-                        :class="{'text-yellow-300':$route.name === item.dir.replace('/', '')}"
-                        :to="item.dir.includes('index') ? '/' : item.dir" :key="index" @click.native="toggleNavbar()">
-                        {{item.name}}
+                <nav class="flex flex-col font-bold text-gray-600 text-4xl">
+                    <NuxtLink v-for="(item, index) in $t('navigation_links')" class="border-b p-2"
+                        :class="{ 'text-yellow-300': $route.name === item.dir.replace('/', '') }"
+                        :to="item.dir.includes('index') ? localePath('/') : localePath(item.dir)" :key="index" @click.native="toggleNavbar()">
+                        {{ item.name.replaceAll("i", "*").toUpperCase().replaceAll("*", "İ") }}
                     </NuxtLink>
                 </nav>
             </div>
