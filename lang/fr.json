@@ -1,7 +1,8 @@
 {
+    "read_more":"Voir plus",
     "navigation_links": [
         {
-            "name": "Acceuil",
+            "name": "Accueil",
             "dir": "/index"
         },
         {
@@ -175,7 +176,7 @@
             "advantages":[
                 {
                     "heading": "Un service unique",
-                    "content": ":Un service sur-mesure unique.",
+                    "content": "Un service sur-mesure unique.",
                     "icon": "fa-solid fa-diamond"
                 },
                 {

@@ -54,7 +54,7 @@ export default {
         </div>
 
         <nuxt-img v-if="screenSize.width < 640" class="h-full w-full object-cover object-center absolute"
-            src="/landing_compressed.gif" placeholder="/landing_placeholder.gif" />
+            src="/landing_compressed.gif" placeholder="/landing_placeholder.jpg" />
 
         <div v-if="screenSize.width < 640" class="w-full h-full z-10 relative">
             <div class=" h-full z-1 text-white flex items-start flex-col justify-end px-8 py-16 ">

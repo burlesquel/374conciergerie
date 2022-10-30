@@ -18,7 +18,7 @@ export default {
                 :service="$t('index').offers.twentyfour_hours" />
 
             <Offer image_uri="/gold.png" header="Gold" :price="90" :service="$t('index').offers.three_days"
-                :seven_twentyfour="true" />
+                :seven_twentyfour="false" />
 
             <Offer image_uri="/platinum.png" header="Platinum" :price="150" :service="$t('index').offers.seven_days"
                 :seven_twentyfour="true" />

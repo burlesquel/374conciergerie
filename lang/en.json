@@ -1,5 +1,5 @@
 {
-    "message": "Hello",
+    "read_more":"Read more",
     "navigation_links": [
         {
             "name": "Home",
@@ -43,7 +43,7 @@
                 },
                 {
                     "header": "Travel",
-                    "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver, availability..."
+                    "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver..."
                 },
                 {
                     "header": "Ticketing",
@@ -186,7 +186,7 @@
                 },
                 {
                     "heading": "Personalization",
-                    "content": "Optimizing your personal time.",
+                    "content": "Our offers are 100% chosen by you and for you.",
                     "icon": "fa-solid fa-person"
                 },
                 {
