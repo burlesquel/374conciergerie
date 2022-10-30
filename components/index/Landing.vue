@@ -66,7 +66,7 @@ export default {
 For a few days or a long time, for vacation or work, 374 Conciergerie makes your life easier.
 </h2> -->
 
-                <button class="text-2xl p-2 bg-yellow-600 inline text-gray-900 rounded">Book now</button>
+                <button class="text-2xl p-2 bg-logorange inline text-gray-900 rounded">Book now</button>
             </div>
         </div>
     </section>
