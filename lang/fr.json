@@ -1,3 +1,199 @@
 {
-    "message":"Bonjour"
+    "navigation_links": [
+        {
+            "name": "Acceuil",
+            "dir": "/index"
+        },
+        {
+            "name": "Services",
+            "dir": "/services"
+        },
+        {
+            "name": "Qui sommes-nous",
+            "dir": "/about"
+        },
+        {
+            "name": "Offres",
+            "dir": "/offers"
+        },
+        {
+            "name": "Contact",
+            "dir": "/contact"
+        }
+    ],
+    "index": {
+        "introduction": {
+            "header": {
+                "travel": "Le voyage",
+                "typewriter_words": [
+                    "premium",
+                    "exclusif",
+                    "personnalisé"
+                ]
+            },
+            "content": "L’objectif premier de 374 Conciergerie est de permettre à ses membres de voyager en toute tranquillité. Vous prévoyez de voyager en Turquie, profitez d’un service Premium grâce à nos concierges qui sont présents pour répondre aux demandes de nos membres au quotidien. Nos services sont entièrement personnalisés afin de créer une expérience qui vous correspond et vous ressemble. Nous sélectionnons pour vous les meilleurs  partenaires pour rendre votre voyage unique et inoubliable. "
+        },
+        "services": {
+            "header": "Découvrez nos services",
+            "services": [
+                {
+                    "header": "Shopping",
+                    "content": "Trouver les plus belles pièces d’une grande marque, un modèle exclusif ou encore un personal shopper"
+                },
+                {
+                    "header": "Voyage",
+                    "content": "Organisation de voyage, hôtel, maison particulière, location de voiture, aéroport, jet privé, chauffeur privé..."
+                },
+                {
+                    "header": "Billettierie",
+                    "content": " Billets pour un match de football, un tournoi de tennis, un match de boxe ou tout autre événement sportif. Réservation de places pour concerts, spectacles, opéras…"
+                },
+                {
+                    "header": "Événements",
+                    "content": "Organisation d'anniversaires avec privatisation d'un lieu, organisation de soirées avec mise à disposition d'un chef ou traiteur à domicile..."
+                },
+                {
+                    "header": "Activités",
+                    "content": " Croisière en bateau, baptême d’hélicoptère, visite guidée, activité sportive, sensations fortes, ou trouver le meilleur pour un dîner romantique avec livraison d'un bouquet de fleurs."
+                },
+                {
+                    "header": "Services du quotidien",
+                    "content": " Forfait téléphonique, carte de transport, baby-sitter, ou tout autre besoin…"
+                }
+            ]
+        },
+        "offers": {
+            "heading": "Nos offres",
+            "twentyfour_hours": "Forfait de 24 heures",
+            "three_days": "Forfait de 3 jours",
+            "seven_days": "Forfait de 7 jours",
+            "one_month": "Forfait d’un mois",
+            "seven_twentyfour": "24/24h",
+            "dedicated_concierge": "Concierge dédié",
+            "unlimited_requests": "Nombre de demandes illimité"
+        }
+    },
+    "contact": {
+        "heading": "Contactez-nous",
+        "reach_us": "Ecrivez-nous",
+        "our_rep_will_be_in_contact": "Nos concierges vous contacteront dans un délai de 24h.",
+        "name": "Nom",
+        "email": "E-mail",
+        "your_message": "Votre message",
+        "send": "Envoyer",
+        "message_received": "Nous avons bien reçu votre email, nous allons vous contactez trés rapidement.",
+        "social": "Réseaux sociaux",
+        "follow_us": "Suivez-nous sur:",
+        "or_call_us": "Ou appelez-nous:"
+    },
+    "services": {
+        "landing": "NOS SERVICES",
+        "services": [
+            {
+                "image": "/carousel/helicopter.png",
+                "heading": "Activités",
+                "content": ": Nous gérons vos activités tout au long de votre séjour, bénéficions d'adresses uniques, des meilleures idées de voyage et surtout vous disposez d’une tranquillité d’esprit unique.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/yacht_under_bridge.png",
+                "heading": "Yacht",
+                "content": ":Istanbul est une métropole unique en son genre grâce au Bosphore qui la traverse. Quoi de plus magnifique que de prendre son petit-déjeuner, de passer la journée ou la soirée à bord d'un yacht privé juste pour vous.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/cars.png",
+                "heading": "Voitures",
+                "content": "Profitez d'un véhicule pour vos déplacements pendant votre séjour, une voiture familiale, une berline confort ou la sportive de vos rêves.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/shopping.png",
+                "heading": "Shopping",
+                "content": "Nous recherchons pour vous les pièces les plus uniques pour votre garde-robe. Nous mettons également à votre disposition un personal shopper pour vos sorties shopping.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/girl_laying_against_landscape.png",
+                "heading": "Hôtels",
+                "content": "Profitez des plus grands hôtels d’Istanbul. Nous planifions votre séjour avec des solutions adaptées à vos besoins et sélectionnons pour vous les établissements les plus renommés.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/dentist.png",
+                "heading": "Médical",
+                "content": "Nous mettons en relation nos membres aux meilleures cliniques pour toutes sortes de traitement comme la greffe de cheveux, la rhinoplastie, la greffe de barbe, les soins dentaires et bien plus encore..",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/soccer.png",
+                "heading": "Billetterie",
+                "content": "Nous réservons pour vous vos billets pour les plus beaux événements, qu'il s'agisse d'un match de football dans une atmosphère unique au monde, d'un concert ou d'un opéra.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/airplane.png",
+                "heading": "Voyage",
+                "content": ": Pour votre confort, nos concierges organise votre voyage. Nous vous proposons également un service de vols privés depuis n'importe où dans le monde.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/car_inside.png",
+                "heading": "Transport",
+                "content": "Chauffeur privé, transfert aéroport, van privé ou déplacement du quotidien, nous mettons en place vos déplacements quand et où vous le souhaitez.",
+                "mode": 1
+            },
+            {
+                "image": "/carousel/restaurant.png",
+                "heading": "Restaurant",
+                "content": "Nous trouvons les tables les plus exquises pour des moments somptueux et inoubliables.",
+                "mode": 0
+            },
+            {
+                "image": "/carousel/light_bulb.jpg",
+                "heading": "Services quotidien et plus",
+                "content": "Nos concierges sont à votre disposition au quotidien pour toutes vos demandes. Vos demandes spécifiques sont un grand défi pour nos équipes qui mettront tout en œuvre pour vous satisfaire.",
+                "mode": 0
+            }
+        ]
+    },
+    "about": {
+        "landing": "À PROPOS DE NOUS",
+        "whoarewe": {
+            "heading": "Qui sommes-nous? ",
+            "content1": [
+                "Nous sommes fiers de nos valeurs et avons en héritage la conciergerie hôtelière, que nous souhaitons transmettre dans la vie quotidienne de nos membres. 374 Conciergerie s'appuie sur un carnet d'adresses et un excellent réseau pour vous offrir des avantages exclusifs pour satisfaire nos membres et de fournir un service personnalisé. Pour satisfaire les demandes de nos membres, nous avons mis en place un système avec des partenaires qui partagent nos principes et nos idées du tourisme. Nous sommes là pour vous offrir une expérience incroyable et pour vous aider dans votre projet 24 heures sur 24.",
+                "Quelles que soient leurs demandes, nos membres ont toujours accès à toutes les ressources de 374 Conciergerie. Nous optons systématiquement la solution optimale, même si elle paraît impossible au premier abord."
+            ],
+            "content2": {
+                "general_manager": "Notre directeur général",
+                "quote": "La conciergerie est avant tout une passion pour moi, c'est un défi quotidien de faire vivre à nos membres une expérience unique et inoubliable. La conciergerie d'hôtel est pour moi l'un des plus beaux métiers du monde, c'est pourquoi j’ai souhaité cette atmosphère pour nos membres de 374 Conciergerie en utilisant mes connaissances acquises en travaillant aux côtés des meilleurs concierges Clefs d'or des plus grands palaces français où j'ai pu travailler. Parce que chacun de nos membres a une personnalité distincte, nous adaptons chacune de nos prestations et uniquement à vous. Bienvenue au 374 Conciergerie."
+            }
+        },
+        "advantages": {
+            "heading":"Pourquoi nous ?",
+            "advantages":[
+                {
+                    "heading": "Un service unique",
+                    "content": ":Un service sur-mesure unique.",
+                    "icon": "fa-solid fa-diamond"
+                },
+                {
+                    "heading": "La disponibilité",
+                    "content": " Nos concierges sont à votre disposition 24h/24 et 7j/7.",
+                    "icon": "fa-regular fa-clock"
+                },
+                {
+                    "heading": "Le personnalisation",
+                    "content": "Nos offres sont 100% choisies par vous et pour vous.",
+                    "icon": "fa-solid fa-person"
+                },
+                {
+                    "heading": "L’exclusivité",
+                    "content": "Nous partageons nos meilleures adresses avec un traitement VIP.",
+                    "icon": "fa-regular fa-gem"
+                }
+            ]
+        }
+    }
 }
