@@ -1,8 +1,8 @@
 <script>
 
 export default {
-  props:{
-    popupState:{type:Boolean}
+  props: {
+    popupState: { type: Boolean }
   },
   data() {
     return {
@@ -29,8 +29,8 @@ export default {
         }
       ],
       languages: [
-        {name:"Türkçe", code:"tr"},
-        {name:"English", code:"en"},
+        { name: "Türkçe", code: "tr" },
+        { name: "English", code: "en" },
       ],
       scrolled: false,
       current_path: null,
@@ -67,22 +67,72 @@ export default {
 
 <template>
   <header
-    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between text-2xl sticky top-0 z-50 shadow-lg bg-black">
-    <nuxt-img class="h-full object-contain" src="/logo.png" />
-    <nav class="hidden sm:flex flex-row gap-10 ">
-      <NuxtLink v-for="(item, index) in $t('navigation_links')"
+    class="w-full text-white p-4 px-8 flex flex-row items-center justify-between sm:justify-center gap-6 text-2xl sticky top-0 z-50 shadow-lg bg-black">
+
+
+      <nav class="hidden sm:flex flex-row gap-10 ">
+      <!-- <NuxtLink v-for="(item, index) in $t('navigation_links')"
         :class="{'text-yellow-300':$route.name === item.dir.replace('/', '')}"
         :to="item.dir.includes('index') ? localePath('/') : localePath(item.dir)" :key="index">
         {{item.name}}
+      </NuxtLink> -->
+      <!-- <NuxtLink
+        :to="$t('navigation_links').home.dir.includes('index') ? localePath('/') : localePath($t('navigation_links').home.dir)" :key="index">
+        {{$t('navigation_links').home.name}}
+      </NuxtLink> -->
+      <NuxtLink
+      class="flex flex-col gap-2 group"
+        :to="localePath($t('navigation_links').services.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('services')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').services.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('services')}" class="w-28 h-px group-hover:bg-logorange bg-white "></span>
+      </NuxtLink>
+      <NuxtLink
+      class="flex flex-col gap-2 group"
+        :to="localePath($t('navigation_links').offers.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('offers')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').offers.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('offers')}" class="w-28 h-px group-hover:bg-logorange bg-white"></span>
       </NuxtLink>
 
     </nav>
 
-    <div class="relative flex flex-col items-center gap-4">
+    <NuxtLink class="h-full" :to="localePath('/')">
+      <nuxt-img class="object-contain h-full" src="/logo.png" />
+    </NuxtLink>
+
+    <nav class="hidden sm:flex flex-row gap-10">
+      <!-- <NuxtLink v-for="(item, index) in $t('navigation_links')"
+        :class="{'text-yellow-300':$route.name === item.dir.replace('/', '')}"
+        :to="item.dir.includes('index') ? localePath('/') : localePath(item.dir)" :key="index">
+        {{item.name}}
+      </NuxtLink> -->
+      <NuxtLink
+      class="flex flex-col gap-2 items-end group"
+        :to="localePath($t('navigation_links').about_us.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('about')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').about_us.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('about')}" class="w-28 h-px group-hover:bg-logorange bg-white"></span>
+      </NuxtLink>
+      <NuxtLink
+      class="flex flex-col gap-2 items-end group"
+        :to="localePath($t('navigation_links').contact.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('contact')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').contact.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('contact')}" class="w-28 h-px group-hover:bg-logorange bg-white"></span>
+      </NuxtLink>
+
+    </nav>
+
+
+    <div class="absolute float-right right-8 flex flex-col items-center gap-4">
       <i class="fa-solid fa-globe hidden sm:flex text-xl cursor-pointer" name="language-popup"></i>
-      <div class="absolute flex flex-col bg-white text-black items-center top-7 text-lg border shadow rounded-sm"  v-if="popupState">
-        <span :class="{'bg-yellow-300':language.code === $i18n.locale}" class="p-0.5 w-full hover:bg-yellow-200 cursor-pointer select-none" v-for="language in $i18n.locales" :key="language.name">
-          <NuxtLink :to="switchLocalePath(language.code)">{{language.name}}</NuxtLink>
+      <div class="absolute flex flex-col bg-white text-black items-center top-7 text-lg border shadow rounded-sm"
+        v-if="popupState">
+        <span :class="{ 'bg-yellow-300': language.code === $i18n.locale }"
+          class="p-0.5 w-full hover:bg-yellow-200 cursor-pointer select-none" v-for="language in $i18n.locales"
+          :key="language.name">
+          <NuxtLink :to="switchLocalePath(language.code)">{{ language.name }}</NuxtLink>
           <!-- <span v-if="languages.indexOf(language) !== languages.length-1" class="w-full h-px bg-black"></span> -->
         </span>
       </div>

@@ -19,7 +19,7 @@ export default {
     </div>
 
     <NuxtLink :to="localePath('/services')"
-      class="bg-logorange p-2 rounded hover:bg-yellow-200 transition text-lg text-white cursor-pointer">Read More
+      class="bg-logorange p-2 rounded hover:bg-yellow-200 transition text-lg text-white cursor-pointer">{{$t("read_more")}}
     </NuxtLink>
   </section>
 </template>

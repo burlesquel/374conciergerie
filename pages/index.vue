@@ -17,7 +17,7 @@ export default {
     <Landing />
     <Introduction />
     <Services />
-    <ShortDescription heading="How it works?" content="374 Conciergerie welcomes you to become a member and have access to our services through a variety of offerings tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."/>
+    <ShortDescription :heading="$t('index').how_it_works.heading" :content="$t('index').how_it_works.content"/>
     <Offers />
     <ReachUsForm/>
   </Animatable>

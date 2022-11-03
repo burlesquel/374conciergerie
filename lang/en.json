@@ -1,27 +1,27 @@
 {
-    "read_more":"Read more",
-    "navigation_links": [
-        {
+    "read_more": "Read more",
+    "navigation_links": {
+        "home": {
             "name": "Home",
             "dir": "/index"
         },
-        {
+        "services": {
             "name": "Services",
             "dir": "/services"
         },
-        {
-            "name": "About Us",
+        "about_us": {
+            "name": "About",
             "dir": "/about"
         },
-        {
+        "offers": {
             "name": "Offers",
             "dir": "/offers"
         },
-        {
+        "contact": {
             "name": "Contact",
             "dir": "/contact"
         }
-    ],
+    },
     "index": {
         "introduction": {
             "header": {
@@ -63,6 +63,10 @@
                 }
             ]
         },
+        "how_it_works": {
+            "heading": "How it works?",
+            "content": "374 Conciergerie welcomes you to become a member and have access to our services through a variety of offerings tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."
+        },
         "offers": {
             "heading": "Offers",
             "twentyfour_hours": "24 hours service",
@@ -74,7 +78,7 @@
             "unlimited_requests": "Unlimited number of requests"
         }
     },
-    "contact": {
+    "reach_us": {
         "heading": "Contact",
         "reach_us": "Reach us",
         "our_rep_will_be_in_contact": "Our representatives will be in contact within 24 hours.",
@@ -172,8 +176,8 @@
             }
         },
         "advantages": {
-            "heading":"Why choose us?",
-            "advantages":[
+            "heading": "Why choose us?",
+            "advantages": [
                 {
                     "heading": "Unique Service",
                     "content": "A one-of-a-kind bespoke service in your picture.",
@@ -196,5 +200,8 @@
                 }
             ]
         }
+    },
+    "contact":{
+        "heading":""
     }
 }

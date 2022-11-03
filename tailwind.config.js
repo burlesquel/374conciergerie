@@ -3,16 +3,26 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      zIndex:{
-        "-10":"-10",
-        "-20":"-20",
-        "-30":"-30",
-        "-40":"-40",
-        "-50":"-50",
-        "-60":"-60",
-        "-70":"-70",
-        "-80":"-80",
-        "-90":"-90",
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0',
+        wide: '.025em',
+        wider: '.05em',
+        widest: '.1em',
+        widest: '.25em',
+      },
+      zIndex: {
+        "-10": "-10",
+        "-20": "-20",
+        "-30": "-30",
+        "-40": "-40",
+        "-50": "-50",
+        "-60": "-60",
+        "-70": "-70",
+        "-80": "-80",
+        "-90": "-90",
       },
       colors: {
         logorange: "#92762C"

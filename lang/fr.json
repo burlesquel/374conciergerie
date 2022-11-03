@@ -1,27 +1,27 @@
 {
     "read_more":"Voir plus",
-    "navigation_links": [
-        {
+    "navigation_links": {
+        "home":{
             "name": "Accueil",
             "dir": "/index"
         },
-        {
+        "services":{
             "name": "Services",
             "dir": "/services"
         },
-        {
+        "about_us":{
             "name": "Qui sommes-nous",
             "dir": "/about"
         },
-        {
+        "offers":{
             "name": "Offres",
             "dir": "/offers"
         },
-        {
+        "contact":{
             "name": "Contact",
             "dir": "/contact"
         }
-    ],
+    },
     "index": {
         "introduction": {
             "header": {
@@ -63,6 +63,10 @@
                 }
             ]
         },
+        "how_it_works": {
+            "heading": "How it works?",
+            "content": "374 Conciergerie welcomes you to become a member and have access to our services through a variety of offerings tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."
+        },
         "offers": {
             "heading": "Nos offres",
             "twentyfour_hours": "Forfait de 24 heures",
@@ -74,7 +78,7 @@
             "unlimited_requests": "Nombre de demandes illimité"
         }
     },
-    "contact": {
+    "reach_us": {
         "heading": "Contactez-nous",
         "reach_us": "Ecrivez-nous",
         "our_rep_will_be_in_contact": "Nos concierges vous contacteront dans un délai de 24h.",

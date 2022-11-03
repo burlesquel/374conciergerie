@@ -1,28 +1,28 @@
 {
     "read_more":"Daha fazlası",
     "message": "Merhaba",
-    "navigation_links": [
-        {
+    "navigation_links": {
+        "home":{
             "name": "Ana Sayfa",
             "dir": "/index"
         },
-        {
+        "services":{
             "name": "Servislerimiz",
             "dir": "/services"
         },
-        {
+        "about_us":{
             "name": "Hakkımızda",
             "dir": "/about"
         },
-        {
+        "offers":{
             "name": "Teklifler",
             "dir": "/offers"
         },
-        {
+        "contact":{
             "name": "İletişim",
             "dir": "/contact"
         }
-    ],
+    },
     "index": {
         "introduction": {
             "header": {
@@ -64,6 +64,10 @@
                 }
             ]
         },
+        "how_it_works":{
+            "heading":"Nasıl çalışır?",
+            "content":"374 Conciergerie üyesi olduğunuzda size özel farklı tekliflerimiz ile tüm servislerimize erişim sağlarsınız. Üyeliğiniz tamamlandığında seyahatiniz boyunca tüm istekleriniz için size eşlik edecek bir konsiyerje sahip olursunuz."
+        },
         "offers":{
             "heading":"Tekliflerimiz",
             "twentyfour_hours":"24 saatlik servis",
@@ -75,7 +79,7 @@
             "unlimited_requests":"Sınırsız hizmet"
         }
     },
-    "contact":{
+    "reach_us":{
         "heading":"İletişim",
         "reach_us":"Bize ulaşın",
         "our_rep_will_be_in_contact":"Temsilcilerimiz 24 saat içerisinde irtibata geçecek.",
