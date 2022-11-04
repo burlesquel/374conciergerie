@@ -2,9 +2,9 @@
 export default {
     props: {
         words: { required: true, type: Array },
-        delay:{required:false, type:Number, default:1000},
-        speed:{required:false, type:Number, default:150},
-        line_color:{required:false, type:String, default:"#000000"}
+        delay: { required: false, type: Number, default: 1000 },
+        speed: { required: false, type: Number, default: 150 },
+        line_color: { required: false, type: String, default: "#000000" }
     },
     data() {
         return ({
@@ -40,6 +40,6 @@ export default {
     
 <template>
 
-    <span>{{current}}<span :style="{color:line_color}">|</span></span>
+        <span>{{ current }}<span :style="{ color: line_color }">|</span></span>
 
 </template>

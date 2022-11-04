@@ -7,18 +7,21 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '374conciergerie',
+    title: '374 Conciergerie',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'my website description'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
         rel: "stylesheet",
@@ -56,8 +59,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/i18n',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/i18n'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -70,33 +72,23 @@ export default {
     locales: [
       {
         code: 'en',
-        iso:'en-US',
         name: "English",
         file: 'en.json'
       },
       {
         code: 'fr',
-        iso:'fr-FR',
         name: "Français",
         file: 'fr.json'
       },
       {
         code: "tr",
-        iso:'tr-TR',
         name: "Türkçe",
         file: "tr.json"
       }
     ],
     lazy: true,
     langDir: 'lang/',
-    defaultLocale: 'en',
-    baseUrl: 'https://374conciergerie.com'
-  },
-
-  sitemap: {
-    hostname: 'https://374conciergerie.com',
-    gzip: true,
-    trailingSlash:true
+    defaultLocale: 'en'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

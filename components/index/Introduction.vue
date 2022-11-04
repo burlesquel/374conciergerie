@@ -12,7 +12,8 @@ export default {
             src="/introduction.png" />
         <div
             class="animation-element fade-right w-full md:w-1/2 p-2 md:p-8 flex flex-col gap-8 justify-center font-light">
-            <h1 class="text-5xl ">{{$t('index').introduction.header.travel}}
+            <h1 class="text-5xl flex flex-col sm:flex-row">
+                <span>{{$t('index').introduction.header.travel}}</span>
                 <TypeWriter class="text-yellow-800" :speed="100" :delay="500"
                     :words="$t('index').introduction.header.typewriter_words" />
             </h1>
