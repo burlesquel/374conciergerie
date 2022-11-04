@@ -11,48 +11,46 @@ export default {
     <nuxt-img class="w-40 object-contain" src="/logo.png" />
 
     <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
-      <h1 class="text-3xl">Company</h1>
+      <h1 class="text-3xl select-none">{{ $t('footer').company }}</h1>
       <span class="h-px w-full bg-white"></span>
-      <span>About</span>
-      <span>Partners</span>
-      <span>Terms</span>
-      <span>Privacy</span>
+      <NuxtLink :to="localePath('about')">{{ $t('footer').about }}</NuxtLink>
+      <NuxtLink :to="localePath('services')">{{ $t('footer').services }}</NuxtLink>
+      <NuxtLink :to="localePath('offers')">{{ $t('footer').offers }}</NuxtLink>
+      <a href="https://www.termsfeed.com/live/66bff286-58ff-420f-9312-3cf397825157" target="_blank">{{ $t('footer').terms_privacy }}</a>
     </div>
     <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
-      <h1 class="text-3xl">Customer Services</h1>
+      <h1 class="text-3xl select-none">{{ $t('footer').customer_services }}</h1>
       <span class="h-px w-full bg-white"></span>
-      <span></span>
-      <span>Contact Us</span>
-      <span>FAQs</span>
-      <span>Events</span>
+      <NuxtLink :to="localePath('contact')">{{ $t('footer').contact_us }} </NuxtLink>
+      <NuxtLink :to="localePath('faq')">{{ $t('footer').faqs }}</NuxtLink>
     </div>
     <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
-      <h1 class="text-3xl">Social</h1>
+      <h1 class="text-3xl select-none">{{ $t('footer').social }}</h1>
       <span class="h-px w-full bg-white"></span>
       <div class="flex flex-row gap-4">
-        <span
+        <a href="https://www.instagram.com/374conciergerie/" target="_blank"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-brands fa-instagram text-xl "></i>
-        </span>
-        <span
+        </a>
+        <a href="https://www.instagram.com/374conciergerie/" target="_blank"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-brands fa-facebook text-xl "></i>
-        </span>
-        <span
+        </a>
+        <a href="https://www.instagram.com/374conciergerie/" target="_blank"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-brands fa-linkedin text-xl "></i>
-        </span>
+        </a>
       </div>
-      <div class="flex flex-row gap-4 w-full items-center">
-        <span
+      <a class="flex flex-row gap-4 w-full items-center">
+        <a href="tel:+905431841021"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-solid fa-phone text-xl "></i>
-        </span>
-        <span class="flex flex-col h-full justify-between text-xl">
-          <span>+33 6 06 63 88 86</span>
-          <span>+90 543 184 10 21</span>
-        </span>
-      </div>
+        </a>
+        <a href="https://wa.me/+905431841021" target="_blank"
+          class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
+          <i class="fa-brands fa-whatsapp text-xl "></i>
+        </a>
+      </a>
     </div>
 
   </footer>

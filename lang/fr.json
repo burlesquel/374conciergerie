@@ -3,7 +3,7 @@
     "navigation_links": {
         "home": {
             "name": "Accueil",
-            "dir": "/index"
+            "dir": "/"
         },
         "services": {
             "name": "Services",
@@ -20,6 +20,10 @@
         "contact": {
             "name": "Contact",
             "dir": "/contact"
+        },
+        "faq": {
+            "name": "FAQ",
+            "dir": "/faq"
         }
     },
     "index": {
@@ -212,7 +216,7 @@
         "landing": "NOS OFFRES",
         "including_taxes": "TTC",
         "non_binding": "Sans engagement",
-        "select":"Sélectionner",
+        "select": "Sélectionner",
         "offers": [
             {
                 "name": "Silver",
@@ -235,5 +239,23 @@
                 "duration": "Pack d’un mois"
             }
         ]
+    },
+    "faq":{
+        "faq":"FAQ",
+        "frequently_asked_questions":"Foire Aux Questions",
+        "faqs":[
+
+        ]
+    },
+    "footer": {
+        "company": "Compagnie",
+        "about": "Qui sommes-nous",
+        "services": "Services",
+        "offers": "Offres",
+        "terms_privacy": "Termes & Confidentialité",
+        "customer_services": "Service Client",
+        "contact_us": "Contact",
+        "faqs": "FAQ",
+        "social": "Social"
     }
 }

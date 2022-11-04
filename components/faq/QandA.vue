@@ -38,7 +38,7 @@ export default {
 <template>
     <section class="w-full bg-texture flex justify-center items-center">
         <div class="flex flex-col bg-white rounded border w-full md:w-3/5 self-center shadow-lg m-8 p-8 cursor-pointer">
-            <h1 class="text-3xl text-center mb-4">Frequently Asked Questions</h1>
+            <h1 class="text-3xl text-center mb-4">{{ $t('faq').frequently_asked_questions }}</h1>
             <div v-for="qa in local_qas" @click="toggleQA(qa.q)" :key="qa.q" class="flex flex-col gap-4 border-b p-8">
                 <h1 class="text-xl font-semibold flex flex-row w-full justify-between">
                     <span>{{ qa.q }}</span> <i class="fa-solid"

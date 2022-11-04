@@ -4,7 +4,7 @@
     "navigation_links": {
         "home":{
             "name": "Ana Sayfa",
-            "dir": "/index"
+            "dir": "/"
         },
         "services":{
             "name": "Servislerimiz",
@@ -21,6 +21,10 @@
         "contact":{
             "name": "İletişim",
             "dir": "/contact"
+        },
+        "faq":{
+            "name":"SSS",
+            "dir":"/faq"
         }
     },
     "index": {
@@ -240,5 +244,23 @@
                 
             }
         ]
+    },
+    "faq":{
+        "faq":"SSS",
+        "frequently_asked_questions":"Sık Sorulan Sorular",
+        "faqs":[
+
+        ]
+    },
+        "footer": {
+        "company": "Şirket",
+        "about": "Hakkımızda",
+        "services": "Servislerimiz",
+        "offers": "Tekliflerimiz",
+        "terms_privacy": "Koşullar & Gizlilik",
+        "customer_services": "Müşteri Hizmetleri",
+        "contact_us": "İletişim",
+        "faqs": "SSS",
+        "social": "Sosyal"
     }
 }

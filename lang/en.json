@@ -3,7 +3,7 @@
     "navigation_links": {
         "home": {
             "name": "Home",
-            "dir": "/index"
+            "dir": "/"
         },
         "services": {
             "name": "Services",
@@ -20,6 +20,10 @@
         "contact": {
             "name": "Contact",
             "dir": "/contact"
+        },
+        "faq": {
+            "name": "FAQ",
+            "dir": "/faq"
         }
     },
     "index": {
@@ -211,33 +215,45 @@
     "offers": {
         "landing": "OUR OFFERS",
         "including_taxes": "Including taxes",
-        "non_binding":"Non-binding offer",
-        "select":"Select",
+        "non_binding": "Non-binding offer",
+        "select": "Select",
         "offers": [
             {
                 "name": "Silver",
                 "price": "50",
                 "duration": "One day package"
-                
             },
             {
                 "name": "Gold",
                 "price": "70",
                 "duration": "3 days package"
-                
             },
             {
                 "name": "Platinum",
                 "price": "100",
                 "duration": "One week package"
-                
             },
             {
                 "name": "Diamond",
                 "price": "300",
                 "duration": "One month package"
-                
             }
         ]
+    },
+    "faq": {
+        "faq": "FAQ",
+        "frequently_asked_questions": "Frequently Asked Questions",
+        "faqs": []
+    },
+    "footer": {
+        "company": "Company",
+        "about": "About",
+        "services": "Services",
+        "offers": "Offers",
+        "terms_privacy": "Terms & Privacy",
+        "customer_services": "Customer Services",
+        "contact_us": "Contact Us",
+        "faqs": "FAQs",
+        "social": "Social"
     }
 }

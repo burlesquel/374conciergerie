@@ -82,6 +82,13 @@ export default {
       </NuxtLink> -->
       <NuxtLink
       class="flex flex-col gap-2 group"
+        :to="localePath($t('navigation_links').home.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('index')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').home.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('index')}" class="w-28 h-px group-hover:bg-logorange bg-white "></span>
+      </NuxtLink>
+      <NuxtLink
+      class="flex flex-col gap-2 group"
         :to="localePath($t('navigation_links').services.dir)"
         :key="index">
         <span :class="{'text-logorange':$route.name.includes('services')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').services.name }}</span>
@@ -120,6 +127,13 @@ export default {
         :key="index">
         <span :class="{'text-logorange':$route.name.includes('contact')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').contact.name }}</span>
         <span :class="{'bg-logorange':$route.name.includes('contact')}" class="w-28 h-px group-hover:bg-logorange bg-white"></span>
+      </NuxtLink>
+      <NuxtLink
+      class="flex flex-col gap-2 items-end group"
+        :to="localePath($t('navigation_links').faq.dir)"
+        :key="index">
+        <span :class="{'text-logorange':$route.name.includes('faq')}" class="font-light group-hover:text-logorange">{{ $t('navigation_links').faq.name }}</span>
+        <span :class="{'bg-logorange':$route.name.includes('faq')}" class="w-28 h-px group-hover:bg-logorange bg-white"></span>
       </NuxtLink>
 
     </nav>
