@@ -43,27 +43,33 @@
             "services": [
                 {
                     "header": "Shopping",
-                    "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, meet a personal shopper need."
+                    "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, meet a personal shopper need.",
+                    "icon":"fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Travel",
-                    "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver..."
+                    "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver...",
+                    "icon":"fa-solid fa-plane"
                 },
                 {
                     "header": "Ticketing",
-                    "content": "Tickets for a football match, tennis tournament, boxing match or other sporting event. Reservation of places for concerts, shows, operas…"
+                    "content": "Tickets for a football match, tennis tournament, boxing match or other sporting event. Reservation of places for concerts, shows, operas…",
+                    "icon":"fa-solid fa-ticket"
                 },
                 {
                     "header": "Events",
-                    "content": "Organization of birthdays with privatization of a place, organization of parties with provision of a chef or caterer at home..."
+                    "content": "Organization of birthdays with privatization of a place, organization of parties with provision of a chef or caterer at home...",
+                    "icon":"fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Activities",
-                    "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with delivery of a bouquet of flowers."
+                    "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with delivery of a bouquet of flowers.",
+                    "icon":"fa-solid fa-person-running"
                 },
                 {
                     "header": "Daily Service",
-                    "content": "Phone plan, transportation card, babysitter, or any other need..."
+                    "content": "Phone plan, transportation card, babysitter, or any other need...",
+                    "icon":"fa-solid fa-sun"
                 }
             ]
         },

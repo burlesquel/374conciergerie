@@ -43,27 +43,33 @@
             "services": [
                 {
                     "header": "Shopping",
-                    "content": "Trouver les plus belles pièces d’une grande marque, un modèle exclusif ou encore un personal shopper"
+                    "content": "Trouver les plus belles pièces d’une grande marque, un modèle exclusif ou encore un personal shopper",
+                    "icon":"fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Voyage",
-                    "content": "Organisation de voyage, hôtel, maison particulière, location de voiture, aéroport, jet privé, chauffeur privé..."
+                    "content": "Organisation de voyage, hôtel, maison particulière, location de voiture, aéroport, jet privé, chauffeur privé...",
+                    "icon":"fa-solid fa-plane"
                 },
                 {
                     "header": "Billettierie",
-                    "content": " Billets pour un match de football, un tournoi de tennis, un match de boxe ou tout autre événement sportif. Réservation de places pour concerts, spectacles, opéras…"
+                    "content": "Billets pour un match de football, un tournoi de tennis, un match de boxe ou tout autre événement sportif. Réservation de places pour concerts, spectacles, opéras…",
+                    "icon":"fa-solid fa-ticket"
                 },
                 {
                     "header": "Événements",
-                    "content": "Organisation d'anniversaires avec privatisation d'un lieu, organisation de soirées avec mise à disposition d'un chef ou traiteur à domicile..."
+                    "content": "Organisation d'anniversaires avec privatisation d'un lieu, organisation de soirées avec mise à disposition d'un chef ou traiteur à domicile...",
+                    "icon":"fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Activités",
-                    "content": " Croisière en bateau, baptême d’hélicoptère, visite guidée, activité sportive, sensations fortes, ou trouver le meilleur pour un dîner romantique avec livraison d'un bouquet de fleurs."
+                    "content": "Croisière en bateau, baptême d’hélicoptère, visite guidée, activité sportive, sensations fortes, ou trouver le meilleur pour un dîner romantique avec livraison d'un bouquet de fleurs.",
+                    "icon":"fa-solid fa-person-running"
                 },
                 {
                     "header": "Services du quotidien",
-                    "content": " Forfait téléphonique, carte de transport, baby-sitter, ou tout autre besoin…"
+                    "content": "Forfait téléphonique, carte de transport, baby-sitter, ou tout autre besoin…",
+                    "icon":"fa-solid fa-sun"
                 }
             ]
         },

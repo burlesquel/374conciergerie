@@ -44,27 +44,33 @@
             "services": [
                 {
                     "header": "Alışveriş",
-                    "content": "Büyük bir markanın nadir ürünlerini bul veya özel bir alışveriş asistanı ile tanış..."
+                    "content": "Büyük bir markanın nadir ürünlerini bul veya özel bir alışveriş asistanı ile tanış...",
+                    "icon":"fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Seyahat",
-                    "content": "Seyahat organizasyonu, otel, özel ev, araba kiralama, havalimanı transferi, özel jet, özel şoför..."
+                    "content": "Seyahat organizasyonu, otel, özel ev, araba kiralama, havalimanı transferi, özel jet, özel şoför...",
+                    "icon":"fa-solid fa-plane"
                 },
                 {
                     "header": "Biletler",
-                    "content": "Futbol maçları, tenis turnuvaları, box maçları ve diğer spor dalları için biletler; konserler, gösteriler ve operalar için rezervasyon..."
+                    "content": "Futbol maçları, tenis turnuvaları, box maçları ve diğer spor dalları için biletler; konserler, gösteriler ve operalar için rezervasyon...",
+                    "icon":"fa-solid fa-ticket"
                 },
                 {
                     "header": "Etkinlikler",
-                    "content": "Özel bir mekanda doğum günü organizasyonları, özel bir şef ve mutfak personeli ile kişisel evinizde organizasyonlar..."
+                    "content": "Özel bir mekanda doğum günü organizasyonları, özel bir şef ve mutfak personeli ile kişisel evinizde organizasyonlar...",
+                    "icon":"fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Aktiviteler",
-                    "content": "Gemi, helikopter, seyahat rehberi, spor aktiviteleri, ekstrem sporlar, veya sadece sürpriz bir çiçek eşliğinde romantik bir akşam yemeği..."
+                    "content": "Gemi, helikopter, seyahat rehberi, spor aktiviteleri, ekstrem sporlar, veya sadece sürpriz bir çiçek eşliğinde romantik bir akşam yemeği...",
+                    "icon":"fa-solid fa-person-running"
                 },
                 {
                     "header": "Günlük İhtiyaçlar",
-                    "content": "Telefon, ulaşım kartları, bebek bakıcısı, veya herhangi bir ihtiyaç..."
+                    "content": "Telefon, ulaşım kartları, bebek bakıcısı, veya herhangi bir ihtiyaç...",
+                    "icon":"fa-solid fa-sun"
                 }
             ]
         },

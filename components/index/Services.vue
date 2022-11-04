@@ -14,7 +14,7 @@ export default {
     <div class="flex flex-row flex-wrap justify-around">
       <Service v-for="service in $t('index').services.services" :heading="service.header"
         :content="service.content"
-        icon_class="fa-solid fa-bag-shopping" 
+        :icon_class="service.icon" 
         :key="service.header"/>
     </div>
 
