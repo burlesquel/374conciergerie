@@ -18,7 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       {
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
         rel: "stylesheet",
@@ -28,8 +28,8 @@ export default {
       }
     ],
     script: [
-      { src: "https://popupsmart.com/freechat.js", body:true },
-      { src: '/popup.js', body:true}
+      { src: "https://popupsmart.com/freechat.js", body: true },
+      { src: '/popup.js', body: true }
     ]
   },
 
@@ -56,7 +56,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxtjs/sitemap'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -69,23 +70,33 @@ export default {
     locales: [
       {
         code: 'en',
-        name:"English",
+        iso:'en-US',
+        name: "English",
         file: 'en.json'
       },
       {
         code: 'fr',
-        name:"Français",
+        iso:'fr-FR',
+        name: "Français",
         file: 'fr.json'
       },
       {
-        code:"tr",
-        name:"Türkçe",
-        file:"tr.json"
+        code: "tr",
+        iso:'tr-TR',
+        name: "Türkçe",
+        file: "tr.json"
       }
     ],
     lazy: true,
     langDir: 'lang/',
-    defaultLocale: 'en'
+    defaultLocale: 'en',
+    baseUrl: 'https://374conciergerie.com'
+  },
+
+  sitemap: {
+    hostname: 'https://374conciergerie.com',
+    gzip: true,
+    trailingSlash:true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

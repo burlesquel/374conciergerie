@@ -5,14 +5,33 @@ import QandA from '../components/faq/QandA.vue';
 import ReachUsForm from '../components/ReachUsForm.vue';
 
 export default {
-    components: { Animatable, Landing, QandA, ReachUsForm }
+  components: { Animatable, Landing, QandA, ReachUsForm },
+  head() {
+    const locale_meta = this.$nuxtI18nHead({ addSeoAttributes: true }).meta
+    return {
+      title: this.$t('faq').meta.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('faq').meta.description
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          keywords: this.$t('faq').meta.keywords
+        },
+        ...locale_meta
+      ]
+    }
+  },
 }
 </script>
 
 <template>
-    <Animatable>
-        <Landing/>
-        <QandA/>
-        <ReachUsForm/>
-    </Animatable>
+  <Animatable>
+    <Landing />
+    <QandA />
+    <ReachUsForm />
+  </Animatable>
 </template>

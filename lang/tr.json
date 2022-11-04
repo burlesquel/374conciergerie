@@ -1,33 +1,38 @@
 {
-    "read_more":"Daha fazlası",
+    "read_more": "Daha fazlası",
     "message": "Merhaba",
     "navigation_links": {
-        "home":{
+        "home": {
             "name": "Ana Sayfa",
             "dir": "/"
         },
-        "services":{
+        "services": {
             "name": "Servislerimiz",
             "dir": "/services"
         },
-        "about_us":{
+        "about_us": {
             "name": "Hakkımızda",
             "dir": "/about"
         },
-        "offers":{
+        "offers": {
             "name": "Teklifler",
             "dir": "/offers"
         },
-        "contact":{
+        "contact": {
             "name": "İletişim",
             "dir": "/contact"
         },
-        "faq":{
-            "name":"SSS",
-            "dir":"/faq"
+        "faq": {
+            "name": "SSS",
+            "dir": "/faq"
         }
     },
     "index": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "Ana Sayfa | 374 Conciergerie"
+        },
         "introduction": {
             "header": {
                 "travel": "Seyahatin artık",
@@ -45,64 +50,69 @@
                 {
                     "header": "Alışveriş",
                     "content": "Büyük bir markanın nadir ürünlerini bul veya özel bir alışveriş asistanı ile tanış...",
-                    "icon":"fa-solid fa-bag-shopping"
+                    "icon": "fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Seyahat",
                     "content": "Seyahat organizasyonu, otel, özel ev, araba kiralama, havalimanı transferi, özel jet, özel şoför...",
-                    "icon":"fa-solid fa-plane"
+                    "icon": "fa-solid fa-plane"
                 },
                 {
                     "header": "Biletler",
                     "content": "Futbol maçları, tenis turnuvaları, box maçları ve diğer spor dalları için biletler; konserler, gösteriler ve operalar için rezervasyon...",
-                    "icon":"fa-solid fa-ticket"
+                    "icon": "fa-solid fa-ticket"
                 },
                 {
                     "header": "Etkinlikler",
                     "content": "Özel bir mekanda doğum günü organizasyonları, özel bir şef ve mutfak personeli ile kişisel evinizde organizasyonlar...",
-                    "icon":"fa-solid fa-calendar-days"
+                    "icon": "fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Aktiviteler",
                     "content": "Gemi, helikopter, seyahat rehberi, spor aktiviteleri, ekstrem sporlar, veya sadece sürpriz bir çiçek eşliğinde romantik bir akşam yemeği...",
-                    "icon":"fa-solid fa-person-running"
+                    "icon": "fa-solid fa-person-running"
                 },
                 {
                     "header": "Günlük İhtiyaçlar",
                     "content": "Telefon, ulaşım kartları, bebek bakıcısı, veya herhangi bir ihtiyaç...",
-                    "icon":"fa-solid fa-sun"
+                    "icon": "fa-solid fa-sun"
                 }
             ]
         },
-        "how_it_works":{
-            "heading":"Nasıl çalışır?",
-            "content":"374 Conciergerie üyesi olduğunuzda size özel farklı tekliflerimiz ile tüm servislerimize erişim sağlarsınız. Üyeliğiniz tamamlandığında seyahatiniz boyunca tüm istekleriniz için size eşlik edecek bir konsiyerje sahip olursunuz."
+        "how_it_works": {
+            "heading": "Nasıl çalışır?",
+            "content": "374 Conciergerie üyesi olduğunuzda size özel farklı tekliflerimiz ile tüm servislerimize erişim sağlarsınız. Üyeliğiniz tamamlandığında seyahatiniz boyunca tüm istekleriniz için size eşlik edecek bir konsiyerje sahip olursunuz."
         },
-        "offers":{
-            "heading":"Tekliflerimiz",
-            "twentyfour_hours":"24 saatlik servis",
-            "three_days":"3 günlük servis",
-            "seven_days":"7 günlük servis",
-            "one_month":"1 aylık servis",
-            "seven_twentyfour":"Haftanın 7 günü 24 saat",
-            "dedicated_concierge":"Özel konsiyerj",
-            "unlimited_requests":"Sınırsız hizmet"
+        "offers": {
+            "heading": "Tekliflerimiz",
+            "twentyfour_hours": "24 saatlik servis",
+            "three_days": "3 günlük servis",
+            "seven_days": "7 günlük servis",
+            "one_month": "1 aylık servis",
+            "seven_twentyfour": "Haftanın 7 günü 24 saat",
+            "dedicated_concierge": "Özel konsiyerj",
+            "unlimited_requests": "Sınırsız hizmet"
         }
     },
-    "reach_us":{
-        "heading":"İletişim",
-        "reach_us":"Bize ulaşın",
-        "our_rep_will_be_in_contact":"Temsilcilerimiz 24 saat içerisinde irtibata geçecek.",
-        "name":"İsim",
-        "email":"E-posta",
-        "your_message":"Mesajınız",
-        "send":"Gönder",
-        "message_received":"Mesajınızı aldık! x saat içerisinde irtibata geçeceğiz.",
-        "social":"Sosyal",
-        "follow_us":"Bizi takip edin",
-        "or_call_us":"Veya bizi arayın"
+    "reach_us": {
+        "heading": "İletişim",
+        "reach_us": "Bize ulaşın",
+        "our_rep_will_be_in_contact": "Temsilcilerimiz 24 saat içerisinde irtibata geçecek.",
+        "name": "İsim",
+        "email": "E-posta",
+        "your_message": "Mesajınız",
+        "send": "Gönder",
+        "message_received": "Mesajınızı aldık! x saat içerisinde irtibata geçeceğiz.",
+        "social": "Sosyal",
+        "follow_us": "Bizi takip edin",
+        "or_call_us": "Veya bizi arayın"
     },
     "services": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "Servislerimiz | 374 Conciergerie"
+        },
         "landing": "SERVİSLERİMİZ",
         "services": [
             {
@@ -174,6 +184,11 @@
         ]
     },
     "about": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "Hakkımızda | 374 Conciergerie"
+        },
         "landing": "HAKKIMIZDA",
         "whoarewe": {
             "heading": "Biz kimiz?",
@@ -187,8 +202,8 @@
             }
         },
         "advantages": {
-            "heading":"Neden bizi seçmelisiniz?",
-            "advantages":[
+            "heading": "Neden bizi seçmelisiniz?",
+            "advantages": [
                 {
                     "heading": "Eşsiz Servis",
                     "content": "Benzersiz ve ısmarlama hizmet anlayışı.",
@@ -212,53 +227,63 @@
             ]
         }
     },
-    "contact":{
-        "heading":"374 Conciergerie'ye ulaşın",
-        "subheading":"Seyahatinizi başlatmak için bize ulaşın!",
-        "phone":"Telefon",
-        "message_us":"Mesaj atın",
-        "follow_us":"Takip edin"
+    "contact": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "İletişim | 374 Conciergerie"
+        },
+        "heading": "374 Conciergerie'ye ulaşın",
+        "subheading": "Seyahatinizi başlatmak için bize ulaşın!",
+        "phone": "Telefon",
+        "message_us": "Mesaj atın",
+        "follow_us": "Takip edin"
     },
     "offers": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "Tekliflerimiz | 374 ConciergerieAQ"
+        },
         "landing": "TEKLİFLERİMİZ",
+        "heading":"Tekliflerimizi Keşfedin",
         "including_taxes": "Vergiler dahil",
-        "non_binding":"Non-binding teklif",
-        "select":"Teklifi seç",
+        "non_binding": "Non-binding teklif",
+        "select": "Teklifi seç",
         "offers": [
             {
                 "name": "Silver",
                 "price": "50",
                 "duration": "Bir günlük paket"
-                
             },
             {
                 "name": "Gold",
                 "price": "70",
                 "duration": "3 günlük paket"
-                
             },
             {
                 "name": "Platinum",
                 "price": "100",
                 "duration": "Bir haftalık paket"
-                
             },
             {
                 "name": "Diamond",
                 "price": "300",
                 "duration": "Bir aylık paket"
-                
             }
         ]
     },
-    "faq":{
-        "faq":"SSS",
-        "frequently_asked_questions":"Sık Sorulan Sorular",
-        "faqs":[
-
-        ]
+    "faq": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "SSS | 374 Conciergerie"
+        },
+        "faq": "SSS",
+        "frequently_asked_questions": "Sık Sorulan Sorular",
+        "faqs": []
     },
-        "footer": {
+    "footer": {
         "company": "Şirket",
         "about": "Hakkımızda",
         "services": "Servislerimiz",

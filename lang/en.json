@@ -27,6 +27,11 @@
         }
     },
     "index": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Home | 374 Conciergerie"
+        },
         "introduction": {
             "header": {
                 "travel": "Travel",
@@ -44,32 +49,32 @@
                 {
                     "header": "Shopping",
                     "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, meet a personal shopper need.",
-                    "icon":"fa-solid fa-bag-shopping"
+                    "icon": "fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Travel",
                     "content": "Travel organization, hotel, private house, car rental, airport transfer, private jet, private driver...",
-                    "icon":"fa-solid fa-plane"
+                    "icon": "fa-solid fa-plane"
                 },
                 {
                     "header": "Ticketing",
                     "content": "Tickets for a football match, tennis tournament, boxing match or other sporting event. Reservation of places for concerts, shows, operas…",
-                    "icon":"fa-solid fa-ticket"
+                    "icon": "fa-solid fa-ticket"
                 },
                 {
                     "header": "Events",
                     "content": "Organization of birthdays with privatization of a place, organization of parties with provision of a chef or caterer at home...",
-                    "icon":"fa-solid fa-calendar-days"
+                    "icon": "fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Activities",
                     "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with delivery of a bouquet of flowers.",
-                    "icon":"fa-solid fa-person-running"
+                    "icon": "fa-solid fa-person-running"
                 },
                 {
                     "header": "Daily Service",
                     "content": "Phone plan, transportation card, babysitter, or any other need...",
-                    "icon":"fa-solid fa-sun"
+                    "icon": "fa-solid fa-sun"
                 }
             ]
         },
@@ -102,6 +107,11 @@
         "or_call_us": "Or call us on:"
     },
     "services": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Services | 374 Conciergerie"
+        },
         "landing": "OUR SERVICES",
         "services": [
             {
@@ -173,6 +183,11 @@
         ]
     },
     "about": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"About | 374 Conciergerie"
+        },
         "landing": "ABOUT US",
         "whoarewe": {
             "heading": "Who are we?",
@@ -212,6 +227,11 @@
         }
     },
     "contact": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Contact | 374 Conciergerie"
+        },
         "heading": "Contact 374 Conciergerie",
         "subheading": "Get in touch with us to start the journey!",
         "phone": "Phone",
@@ -219,7 +239,13 @@
         "follow_us": "Follow us"
     },
     "offers": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Offers | 374 Conciergerie"
+        },
         "landing": "OUR OFFERS",
+        "heading":"Discover Our Offers",
         "including_taxes": "Including taxes",
         "non_binding": "Non-binding offer",
         "select": "Select",
@@ -247,6 +273,11 @@
         ]
     },
     "faq": {
+        "meta":{
+            "keywords":"",
+            "description":"",
+            "title":"FAQ | 374 Conciergerie"
+        },
         "faq": "FAQ",
         "frequently_asked_questions": "Frequently Asked Questions",
         "faqs": []

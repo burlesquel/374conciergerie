@@ -5,6 +5,25 @@ import ReachUsForm from '../components/ReachUsForm.vue'
 import Landing from '../components/services/Landing.vue';
 export default {
     components: { Animatable, Landing, Service, ReachUsForm },
+    head() {
+        const locale_meta = this.$nuxtI18nHead({ addSeoAttributes: true }).meta
+        return {
+            title: this.$t('services').meta.title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: this.$t('services').meta.description
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    keywords: this.$t('services').meta.keywords
+                },
+                ...locale_meta
+            ]
+        }
+    },
 }
 </script>
 

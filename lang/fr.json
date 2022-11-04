@@ -27,6 +27,11 @@
         }
     },
     "index": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Accueil | 374 Conciergerie"
+        },
         "introduction": {
             "header": {
                 "travel": "Le voyage",
@@ -102,6 +107,11 @@
         "or_call_us": "Ou appelez-nous:"
     },
     "services": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Services | 374 Conciergerie"
+        },
         "landing": "NOS SERVICES",
         "services": [
             {
@@ -173,6 +183,11 @@
         ]
     },
     "about": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Qui sommes-nous | 374 Conciergerie"
+        },
         "landing": "À PROPOS DE NOUS",
         "whoarewe": {
             "heading": "Qui sommes-nous? ",
@@ -212,6 +227,11 @@
         }
     },
     "contact": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Contact | 374 Conciergerie"
+        },
         "heading": "Contactez 374 Conciergerie",
         "subheading": "Contactez-nous pour débuter votre voyage!",
         "phone": "Téléphone",
@@ -219,7 +239,13 @@
         "follow_us": "Suivez-nous"
     },
     "offers": {
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"Offres | 374 Conciergerie"
+        },
         "landing": "NOS OFFRES",
+        "heading":"Découvrez Nos Offres",
         "including_taxes": "TTC",
         "non_binding": "Sans engagement",
         "select": "Sélectionner",
@@ -247,6 +273,11 @@
         ]
     },
     "faq":{
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title":"FAQ | 374 Conciergerie"
+        },
         "faq":"FAQ",
         "frequently_asked_questions":"Foire Aux Questions",
         "faqs":[
