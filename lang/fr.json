@@ -107,13 +107,13 @@
             {
                 "image": "/carousel/helicopter.png",
                 "heading": "Activités",
-                "content": ": Nous gérons vos activités tout au long de votre séjour, bénéficions d'adresses uniques, des meilleures idées de voyage et surtout vous disposez d’une tranquillité d’esprit unique.",
+                "content": "Nous gérons vos activités tout au long de votre séjour, bénéficions d'adresses uniques, des meilleures idées de voyage et surtout vous disposez d’une tranquillité d’esprit unique.",
                 "mode": 1
             },
             {
                 "image": "/carousel/yacht_under_bridge.png",
                 "heading": "Yacht",
-                "content": ":Istanbul est une métropole unique en son genre grâce au Bosphore qui la traverse. Quoi de plus magnifique que de prendre son petit-déjeuner, de passer la journée ou la soirée à bord d'un yacht privé juste pour vous.",
+                "content": "Istanbul est une métropole unique en son genre grâce au Bosphore qui la traverse. Quoi de plus magnifique que de prendre son petit-déjeuner, de passer la journée ou la soirée à bord d'un yacht privé juste pour vous.",
                 "mode": 0
             },
             {
@@ -149,7 +149,7 @@
             {
                 "image": "/carousel/airplane.png",
                 "heading": "Voyage",
-                "content": ": Pour votre confort, nos concierges organise votre voyage. Nous vous proposons également un service de vols privés depuis n'importe où dans le monde.",
+                "content": "Pour votre confort, nos concierges organise votre voyage. Nous vous proposons également un service de vols privés depuis n'importe où dans le monde.",
                 "mode": 0
             },
             {
@@ -195,7 +195,7 @@
                 },
                 {
                     "heading": "La disponibilité",
-                    "content": " Nos concierges sont à votre disposition 24h/24 et 7j/7.",
+                    "content": "Nos concierges sont à votre disposition 24h/24 et 7j/7.",
                     "icon": "fa-regular fa-clock"
                 },
                 {
