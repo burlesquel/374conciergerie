@@ -201,5 +201,44 @@
                 }
             ]
         }
+    },
+    "contact":{
+        "heading":"374 Conciergerie'ye ulaşın",
+        "subheading":"Seyahatinizi başlatmak için bize ulaşın!",
+        "phone":"Telefon",
+        "message_us":"Mesaj atın",
+        "follow_us":"Takip edin"
+    },
+    "offers": {
+        "landing": "TEKLİFLERİMİZ",
+        "including_taxes": "Vergiler dahil",
+        "non_binding":"Non-binding teklif",
+        "select":"Teklifi seç",
+        "offers": [
+            {
+                "name": "Silver",
+                "price": "50",
+                "duration": "Bir günlük paket"
+                
+            },
+            {
+                "name": "Gold",
+                "price": "70",
+                "duration": "3 günlük paket"
+                
+            },
+            {
+                "name": "Platinum",
+                "price": "100",
+                "duration": "Bir haftalık paket"
+                
+            },
+            {
+                "name": "Diamond",
+                "price": "300",
+                "duration": "Bir aylık paket"
+                
+            }
+        ]
     }
 }

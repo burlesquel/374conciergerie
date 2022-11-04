@@ -26,34 +26,34 @@ export default {
       <span>FAQs</span>
       <span>Events</span>
     </div>
-    <!-- <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
+    <div class="flex flex-col gap-2 w-full sm:w-1/2 md:w-auto">
       <h1 class="text-3xl">Social</h1>
       <span class="h-px w-full bg-white"></span>
       <div class="flex flex-row gap-4">
         <span
-        class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
-        <i class="fa-brands fa-instagram text-xl "></i>
-      </span>
-      <span
-        class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
-        <i class="fa-brands fa-facebook text-xl "></i>
-      </span>
-      <span
-        class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
-        <i class="fa-brands fa-linkedin text-xl "></i>
-      </span>
+          class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
+          <i class="fa-brands fa-instagram text-xl "></i>
+        </span>
+        <span
+          class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
+          <i class="fa-brands fa-facebook text-xl "></i>
+        </span>
+        <span
+          class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
+          <i class="fa-brands fa-linkedin text-xl "></i>
+        </span>
       </div>
       <div class="flex flex-row gap-4 w-full items-center">
         <span
-        class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
-        <i class="fa-solid fa-phone text-xl "></i>
-      </span>
-      <span class="flex flex-col h-full justify-between text-xl">
-        <span>+33 6 06 63 88 86</span>
-        <span>+90 543 184 10 21</span>
-      </span>
+          class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
+          <i class="fa-solid fa-phone text-xl "></i>
+        </span>
+        <span class="flex flex-col h-full justify-between text-xl">
+          <span>+33 6 06 63 88 86</span>
+          <span>+90 543 184 10 21</span>
+        </span>
       </div>
-    </div> -->
+    </div>
 
   </footer>
 </template>

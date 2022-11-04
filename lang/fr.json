@@ -1,23 +1,23 @@
 {
-    "read_more":"Voir plus",
+    "read_more": "Voir plus",
     "navigation_links": {
-        "home":{
+        "home": {
             "name": "Accueil",
             "dir": "/index"
         },
-        "services":{
+        "services": {
             "name": "Services",
             "dir": "/services"
         },
-        "about_us":{
+        "about_us": {
             "name": "Qui sommes-nous",
             "dir": "/about"
         },
-        "offers":{
+        "offers": {
             "name": "Offres",
             "dir": "/offers"
         },
-        "contact":{
+        "contact": {
             "name": "Contact",
             "dir": "/contact"
         }
@@ -64,8 +64,8 @@
             ]
         },
         "how_it_works": {
-            "heading": "How it works?",
-            "content": "374 Conciergerie welcomes you to become a member and have access to our services through a variety of offerings tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."
+            "heading": "Comment cela fonctionne-t-il?",
+            "content": "374 Conciergerie vous invite à devenir membre et à avoir accès à nos services à travers une variété d'offres adaptées à vos besoins. Une fois votre adhésion complétée, vous aurez accès à un concierge spécialisé qui vous accompagnera dans toutes vos demandes."
         },
         "offers": {
             "heading": "Nos offres",
@@ -176,8 +176,8 @@
             }
         },
         "advantages": {
-            "heading":"Pourquoi nous ?",
-            "advantages":[
+            "heading": "Pourquoi nous ?",
+            "advantages": [
                 {
                     "heading": "Un service unique",
                     "content": "Un service sur-mesure unique.",
@@ -200,5 +200,40 @@
                 }
             ]
         }
+    },
+    "contact": {
+        "heading": "Contactez 374 Conciergerie",
+        "subheading": "Contactez-nous pour débuter votre voyage!",
+        "phone": "Téléphone",
+        "message_us": "Contactez-nous",
+        "follow_us": "Suivez-nous"
+    },
+    "offers": {
+        "landing": "Notre offres",
+        "including_taxes": "TTC",
+        "non_binding": "Sans engagement",
+        "select":"Sélectionner",
+        "offers": [
+            {
+                "name": "Silver",
+                "price": "50",
+                "duration": "Pack d’une journée"
+            },
+            {
+                "name": "Gold",
+                "price": "70",
+                "duration": "Pack de 3 jours"
+            },
+            {
+                "name": "Platinum",
+                "price": "100",
+                "duration": "Pack d’une semaine"
+            },
+            {
+                "name": "Diamond",
+                "price": "300",
+                "duration": "Pack d’un mois"
+            }
+        ]
     }
 }
