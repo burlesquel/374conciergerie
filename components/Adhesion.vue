@@ -10,7 +10,7 @@ export default{
 
 <template>
     <div class="w-80 bg-black text-white flex flex-col shadow-lg">
-        <span class="bg-yellow-800 w-full py-2 text-center text-lg font-semibold">
+        <span class="bg-logorange w-full py-2 text-center text-lg font-semibold">
             {{heading}}
         </span>
         <div class="flex flex-col items-center w-full gap-4 p-4 text-lg">
