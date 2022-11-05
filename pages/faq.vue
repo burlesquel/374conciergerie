@@ -31,7 +31,7 @@ export default {
 <template>
   <Animatable>
     <Landing />
-    <QandA />
+    <QandA :qas="$t('faq').faqs"/>
     <ReachUsForm />
   </Animatable>
 </template>

@@ -30,7 +30,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Accueil | 374 Conciergerie"
+            "title": "Accueil | 374 Conciergerie"
         },
         "introduction": {
             "header": {
@@ -49,32 +49,32 @@
                 {
                     "header": "Shopping",
                     "content": "Trouver les plus belles pièces d’une grande marque, un modèle exclusif ou encore un personal shopper",
-                    "icon":"fa-solid fa-bag-shopping"
+                    "icon": "fa-solid fa-bag-shopping"
                 },
                 {
                     "header": "Voyage",
                     "content": "Organisation de voyage, hôtel, maison particulière, location de voiture, aéroport, jet privé, chauffeur privé...",
-                    "icon":"fa-solid fa-plane"
+                    "icon": "fa-solid fa-plane"
                 },
                 {
                     "header": "Billettierie",
                     "content": "Billets pour un match de football, un tournoi de tennis, un match de boxe ou tout autre événement sportif. Réservation de places pour concerts, spectacles, opéras…",
-                    "icon":"fa-solid fa-ticket"
+                    "icon": "fa-solid fa-ticket"
                 },
                 {
                     "header": "Événements",
                     "content": "Organisation d'anniversaires avec privatisation d'un lieu, organisation de soirées avec mise à disposition d'un chef ou traiteur à domicile...",
-                    "icon":"fa-solid fa-calendar-days"
+                    "icon": "fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Activités",
                     "content": "Croisière en bateau, baptême d’hélicoptère, visite guidée, activité sportive, sensations fortes, ou trouver le meilleur pour un dîner romantique avec livraison d'un bouquet de fleurs.",
-                    "icon":"fa-solid fa-person-running"
+                    "icon": "fa-solid fa-person-running"
                 },
                 {
                     "header": "Services du quotidien",
                     "content": "Forfait téléphonique, carte de transport, baby-sitter, ou tout autre besoin…",
-                    "icon":"fa-solid fa-sun"
+                    "icon": "fa-solid fa-sun"
                 }
             ]
         },
@@ -110,7 +110,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Services | 374 Conciergerie"
+            "title": "Services | 374 Conciergerie"
         },
         "landing": "NOS SERVICES",
         "services": [
@@ -186,7 +186,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Qui sommes-nous | 374 Conciergerie"
+            "title": "Qui sommes-nous | 374 Conciergerie"
         },
         "landing": "À PROPOS DE NOUS",
         "whoarewe": {
@@ -230,7 +230,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Contact | 374 Conciergerie"
+            "title": "Contact | 374 Conciergerie"
         },
         "heading": "Contacter 374 Conciergerie",
         "subheading": "Contactez-nous pour débuter votre voyage!",
@@ -242,10 +242,10 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Offres | 374 Conciergerie"
+            "title": "Offres | 374 Conciergerie"
         },
         "landing": "NOS OFFRES",
-        "heading":"Découvrez nos offres",
+        "heading": "Découvrez nos offres",
         "including_taxes": "TTC",
         "non_binding": "Sans engagement",
         "select": "Sélectionner",
@@ -253,35 +253,73 @@
             {
                 "name": "Silver",
                 "price": "50",
-                "duration": "Pack d’une journée"
+                "duration": "Pack d’une journée",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Bonjour%2C+je+suis+int%C3%A9ress%C3%A9%28e%29+par+le+Pack+Silver.+%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Gold",
                 "price": "70",
-                "duration": "Pack de 3 jours"
+                "duration": "Pack de 3 jours",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Bonjour%2C+je+suis+int%C3%A9ress%C3%A9%28e%29+par+le+Pack+Gold.+%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Platinum",
                 "price": "100",
-                "duration": "Pack d’une semaine"
+                "duration": "Pack d’une semaine",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Bonjour%2C+je+suis+int%C3%A9ress%C3%A9%28e%29+par+le+Pack+Platinum%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Diamond",
                 "price": "300",
-                "duration": "Pack d’un mois"
+                "duration": "Pack d’un mois",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Bonjour%2C+je+suis+int%C3%A9ress%C3%A9%28e%29+par+le+Pack+Diamond%21&type=phone_number&app_absent=0"
             }
         ]
     },
-    "faq":{
+    "faq": {
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"FAQ | 374 Conciergerie"
+            "title": "FAQ | 374 Conciergerie"
         },
-        "faq":"FAQ",
-        "frequently_asked_questions":"Foire Aux Questions",
-        "faqs":[
-
+        "faq": "FAQ",
+        "frequently_asked_questions": "Foire Aux Questions",
+        "faqs": [
+            {
+                "q": "Qu'est-ce qu'une conciergerie privée?",
+                "a": "Une conciergerie privée est un service d'assistance à la personne qui apporte à ses clients des réponses individualisées à leurs demandes quotidiennes.",
+                "visible": false
+            },
+            {
+                "q": "Quels sont les avantages d'une conciergerie privée?",
+                "a": "Les avantages sont nombreux, à commencer par le fait que votre concierge vous est dédié ; à l'ère de l'automatisation, nous valorisons le contact humain avant tout. Votre concierge est alors disponible pour vous et vos projets à tout moment.",
+                "visible": false
+            },
+            {
+                "q": "Comment bénéficier des services de 374 Conciergerie?",
+                "a": "Cela est simple, vous sélectionnez votre offre, vous nous contactez, puis vous devenez membre, et votre concierge est immédiatement à votre disposition.",
+                "visible": false
+            },
+            {
+                "q": "Comment contacter mon concierge?",
+                "a": "Nos membres ont accès à un numéro de téléphone personnel et à une adresse e-mail et cela depuis le monde entier.",
+                "visible": false
+            },
+            {
+                "q": "Les offres sont-elles faites pour une seule personne?",
+                "a": "Nos offres sont faites de manière « familiale », en devenant membres, votre entourage pourra également bénéficier de nos services.",
+                "visible": false
+            },
+            {
+                "q": "Puis-je offrir un abonnement?",
+                "a": "Oui, il est possible tout à fait possible d'offrir un abonnement en nous contactant.",
+                "visible": false
+            },
+            {
+                "q": "Il y a-t-il une limite de demandes?",
+                "a": "Non, toutes nos offres sont sans limite de demande.",
+                "visible": false
+            }
         ]
     },
     "footer": {
@@ -296,3 +334,9 @@
         "social": "Réseaux Sociaux"
     }
 }
+
+
+ 
+
+
+

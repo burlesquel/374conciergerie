@@ -35,11 +35,11 @@
         },
         "introduction": {
             "header": {
-                "travel": "Seyahatin artık",
+                "travel": "seyahat",
                 "typewriter_words": [
-                    "ayrıcalıklı",
-                    "özgür",
-                    "birinci-sınıf"
+                    "Eşsiz",
+                    "Özgür",
+                    "Lüks"
                 ]
             },
             "content": "374 Concergerie olarak hedefimiz müşterilerimize rahat bir seyahat süreci yaşatmaktır. Türkiye'ye bir ziyaret düşünüyorsanız, en karmaşıktan en basit ihtiyaçlarınıza kadar konsiyerjlerimize kendinizi emanet edebilir ve birinci sınıf seyahatinizin keyfini çıkarabilirsiniz. Biz ise sizin ihtiyaçlarınızı baz alıp tamamıyla kişiselleştirilmiş bir deneyim yaşatarak bu seyahatinizi eşsiz ve unutulmaz yapıyor olacağız.  "
@@ -246,7 +246,7 @@
             "title": "Tekliflerimiz | 374 ConciergerieAQ"
         },
         "landing": "TEKLİFLERİMİZ",
-        "heading":"Tekliflerimizi Keşfedin",
+        "heading": "Tekliflerimizi Keşfedin",
         "including_taxes": "Vergiler dahil",
         "non_binding": "Non-binding teklif",
         "select": "Teklifi seç",
@@ -254,22 +254,26 @@
             {
                 "name": "Silver",
                 "price": "50",
-                "duration": "Bir günlük paket"
+                "duration": "Bir günlük paket",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Merhaba%2C+Silver+paketiniz+ile+ilgili+bilgi+alabilir+miyim%3F%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Gold",
                 "price": "70",
-                "duration": "3 günlük paket"
+                "duration": "3 günlük paket",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Merhaba%2C+Gold+paketiniz+ile+ilgili+bilgi+alabilir+miyim%3F%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Platinum",
                 "price": "100",
-                "duration": "Bir haftalık paket"
+                "duration": "Bir haftalık paket",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Merhaba%2C+Platin+paketiniz+ile+ilgili+bilgi+alabilir+miyim%3F%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Diamond",
                 "price": "300",
-                "duration": "Bir aylık paket"
+                "duration": "Bir aylık paket",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Merhaba%2C+Diamond+paketiniz+ile+ilgili+bilgi+alabilir+miyim%3F%21&type=phone_number&app_absent=0"
             }
         ]
     },
@@ -281,7 +285,43 @@
         },
         "faq": "SSS",
         "frequently_asked_questions": "Sık Sorulan Sorular",
-        "faqs": []
+        "faqs": [
+            {
+                "q": "Özel konsiyerj nedir?",
+                "a":"Özel konsiyerj müşterilerinin günlük ihtiyaçları için onlara tamamiyle kişiselleştirilmiş hizmet sunan bir kişisel asistan servisidir.",
+                "visible": false
+            },
+            {
+                "q": "Özel konsiyerjin faydaları nelerdir?",
+                "a":"Özel konsiyerjin faydaları çok çeşitli olmaktadır. Konsiyerjiniz tamamiyle size özel olmaktadır. Ayrıca teknolojinin insan ilişkilerini geride bıraktığı günümüzde biz 374 Conciergerie olarak müşterilerimizle olan iletişimimizi her şeyden önde tutuyoruz. Konsiyerjiniz yolculuğunuz boyunca size asistanlık yapmaktadır.",
+                "visible": false
+            },
+            {
+                "q":"374 Conciergerie'nin servislerinden nasıl yararlanabilirim?",
+                "a":"Prosedür çok basittir. Siz teklifinizi seçersiniz, bize ulaşırsınız ve bir üyemiz olursunuz. Ardından konsiyerjiniz sizinle anında iletişime geçebilir.",
+                "visible": false
+            },
+            {
+                "q": "Konsiyerjime nasıl ulaşabilirim?",
+                "a": "Üyelerimiz konsiyerjlerimizin tüm kişisel telefon ve mail bilgilerine erişim sağlayabilir.",
+                "visible": false
+            },
+            {
+                "q": "Teklifler sadece bir kişi için mi geçerli?",
+                "a":"Tekliflerimiz bir 'aile' tarzında yapılmaktadır. Üye olduktan sonra çevrenizdekiler de servislerimizden faydalanabilir.",
+                "visible": false
+            },
+            {
+                "q": "Kendim bir teklif yapabilir miyim?",
+                "a": "Evet, bize ulaşarak kendiniz bir teklif yapabilirsiniz.",
+                "visible": false
+            },
+            {
+                "q": "İsteklerimde bir sınır olmak zorunda mı?",
+                "a": "Hayır, bütün tekliflerimizde sınırsız istek geçerlidir.",
+                "visible": false
+            }
+        ]
     },
     "footer": {
         "company": "Şirket",

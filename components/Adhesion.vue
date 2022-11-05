@@ -3,7 +3,8 @@ export default{
     props:{
         heading:{type:String, required:true, default:"Offer"},
         price:{type:Number, required:true, default:0},
-        duration:{type:String, required:true, default:"duration"}
+        duration:{type:String, required:true, default:"duration"},
+        contact_url:{type:String, required:true, default:"/"}
     }
 }
 </script>
@@ -28,9 +29,9 @@ export default{
             <span>
                 {{$t('offers').non_binding}}
             </span>
-            <span class="px-8 py-2 border-t border-b cursor-pointer border-logorange text-logorange hover:text-yellow-800 hover:border-yellow-800">
+            <a :href="contact_url" target="_blank" class="px-8 py-2 border-t border-b cursor-pointer border-logorange text-logorange hover:text-yellow-800 hover:border-yellow-800">
                 {{$t('offers').select}}
-            </span>
+            </a>
         </div>
     </div>
 </template>

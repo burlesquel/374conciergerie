@@ -30,7 +30,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Home | 374 Conciergerie"
+            "title": "Home | 374 Conciergerie"
         },
         "introduction": {
             "header": {
@@ -110,7 +110,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Services | 374 Conciergerie"
+            "title": "Services | 374 Conciergerie"
         },
         "landing": "OUR SERVICES",
         "services": [
@@ -186,7 +186,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"About | 374 Conciergerie"
+            "title": "About | 374 Conciergerie"
         },
         "landing": "ABOUT US",
         "whoarewe": {
@@ -230,7 +230,7 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Contact | 374 Conciergerie"
+            "title": "Contact | 374 Conciergerie"
         },
         "heading": "Contact 374 Conciergerie",
         "subheading": "Get in touch with us to start the journey!",
@@ -242,10 +242,10 @@
         "meta": {
             "keywords": "",
             "description": "",
-            "title":"Offers | 374 Conciergerie"
+            "title": "Offers | 374 Conciergerie"
         },
         "landing": "OUR OFFERS",
-        "heading":"Discover Our Offers",
+        "heading": "Discover Our Offers",
         "including_taxes": "Including taxes",
         "non_binding": "Non-binding offer",
         "select": "Select",
@@ -253,34 +253,74 @@
             {
                 "name": "Silver",
                 "price": "50",
-                "duration": "One day package"
+                "duration": "One day package",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Hello%2C+am+interested+in+the+Silver+Package.+%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Gold",
                 "price": "70",
-                "duration": "3 days package"
+                "duration": "3 days package",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Hello%2C+am+interested+in+the+Gold+Package.+%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Platinum",
                 "price": "100",
-                "duration": "One week package"
+                "duration": "One week package",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Hello%2C+am+interested+in+the+Platinium+Package.+%21&type=phone_number&app_absent=0"
             },
             {
                 "name": "Diamond",
                 "price": "300",
-                "duration": "One month package"
+                "duration": "One month package",
+                "contact_url":"https://api.whatsapp.com/send/?phone=%2B905431841021&text=Hello%2C+am+interested+in+the+Diamond+Package.+%21&type=phone_number&app_absent=0"
             }
         ]
     },
     "faq": {
-        "meta":{
-            "keywords":"",
-            "description":"",
-            "title":"FAQ | 374 Conciergerie"
+        "meta": {
+            "keywords": "",
+            "description": "",
+            "title": "FAQ | 374 Conciergerie"
         },
         "faq": "FAQ",
         "frequently_asked_questions": "Frequently Asked Questions",
-        "faqs": []
+        "faqs": [
+            {
+                "q": "What is a private concierge?",
+                "a": "A private concierge is a personal assistance service that provides its customers with individualized responses to their everyday demands.",
+                "visible": false
+            },
+            {
+                "q": "What are the benefits of a private concierge?",
+                "a": "The benefits are numerous, beginning with the fact that your concierge is dedicated to you; in this age of automation, we value human contact above all else. Your concierge is then available to you and your projects at any time.",
+                "visible": false
+            },
+            {
+                "q": "How to benefit from the services of 374 Conciergerie?",
+                "a": "The procedure is straightforward. You select your offer, contact us, and then you become a member, and your concierge is immediately available to you.",
+                "visible": false
+            },
+            {
+                "q": "How do I contact my concierge?",
+                "a": "Our members have global access to a personal phone number and email address of our concierges.",
+                "visible": false
+            },
+            {
+                "q": "Are the offers made for one person only?",
+                "a": "Our offers are available in a 'family' manner; by becoming members, your entourage will be able to benefit from our services as well.",
+                "visible": false
+            },
+            {
+                "q": "Can I offer a subscription?",
+                "a": "Yes, it is possible to offer a subscription by contacting us.",
+                "visible": false
+            },
+            {
+                "q": "Is there a request limit?",
+                "a": "No, all our offers are request limitless.",
+                "visible": false
+            }
+        ]
     },
     "footer": {
         "company": "Company",

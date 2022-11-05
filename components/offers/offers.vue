@@ -18,7 +18,9 @@ export default {
             :heading="offer.name"
             :price="offer.price"
             :duration="offer.duration"
+            :contact_url="offer.contact_url"
             :key="offer.price"
+            
             />
         </div>
     </section>

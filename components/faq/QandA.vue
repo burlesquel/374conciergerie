@@ -25,10 +25,6 @@ export default {
                     qa.visible = !qa.visible
                     return qa
                 }
-                else {
-                    qa.visible = false
-                    return qa
-                }
             })
         }
     }
@@ -40,12 +36,12 @@ export default {
         <div class="flex flex-col bg-white rounded border w-full md:w-3/5 self-center shadow-lg m-8 p-8 cursor-pointer">
             <h1 class="text-3xl text-center mb-4">{{ $t('faq').frequently_asked_questions }}</h1>
             <div v-for="qa in local_qas" @click="toggleQA(qa.q)" :key="qa.q" class="flex flex-col gap-4 border-b p-8">
-                <h1 class="text-xl font-semibold flex flex-row w-full justify-between">
+                <h1 class="text-2xl font-semibold flex flex-row w-full justify-between">
                     <span>{{ qa.q }}</span> <i class="fa-solid"
                         :class="{ 'fa-chevron-up': qa.visible, 'fa-chevron-down': !qa.visible }"></i>
                 </h1>
                 <Transition name="fade">
-                    <span v-if="qa.visible">
+                    <span class="text-lg" v-if="qa.visible">
                         > {{ qa.a }}
                     </span>
                 </Transition>
