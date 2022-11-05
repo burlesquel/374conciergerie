@@ -33,7 +33,7 @@
                 <span>{{ $t('contact').message_us }}</span>
             </a>
 
-            <a href="https://www.instagram.com/374conciergerie/" target="_blank" class="flex flex-col items-center gap-4">
+            <a href="https://www.facebook.com/profile.php?id=100086988986525" target="_blank" class="flex flex-col items-center gap-4">
                 <div
                     class="flex justify-center items-center text-center rounded-full bg-logorange text-white hover:text-logorange hover:bg-white border transition h-24 w-24">
                     <i :class="`fa-brands fa-facebook text-3xl`"></i>
@@ -42,7 +42,7 @@
                 <span>{{ $t('contact').follow_us }}</span>
             </a>
 
-            <a href="https://www.instagram.com/374conciergerie/" target="_blank" class="flex flex-col items-center gap-4">
+            <a href="https://www.instagram.com/374conciergerie" target="_blank" class="flex flex-col items-center gap-4">
                 <div
                     class="flex justify-center items-center text-center rounded-full bg-logorange text-white hover:text-logorange hover:bg-white border transition h-24 w-24">
                     <i :class="`fa-brands fa-instagram text-3xl`"></i>

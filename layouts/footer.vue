@@ -28,11 +28,11 @@ export default {
       <h1 class="text-3xl select-none">{{ $t('footer').social }}</h1>
       <span class="h-px w-full bg-white"></span>
       <div class="flex flex-row gap-4">
-        <a href="https://www.instagram.com/374conciergerie/" target="_blank"
+        <a href="https://www.instagram.com/374conciergerie" target="_blank"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-brands fa-instagram text-xl "></i>
         </a>
-        <a href="https://www.instagram.com/374conciergerie/" target="_blank"
+        <a href="https://www.facebook.com/profile.php?id=100086988986525" target="_blank"
           class="w-12 h-12 p-2 border rounded-full flex justify-center items-center text-center hover:bg-white hover:text-black transition">
           <i class="fa-brands fa-facebook text-xl "></i>
         </a>
