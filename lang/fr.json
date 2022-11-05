@@ -95,7 +95,7 @@
     },
     "reach_us": {
         "heading": "Contactez-nous",
-        "reach_us": "Ecrivez-nous",
+        "reach_us": "Écrivez-nous",
         "our_rep_will_be_in_contact": "Nos concierges vous contacteront dans un délai de 24h.",
         "name": "Nom",
         "email": "E-mail",
@@ -232,9 +232,9 @@
             "description": "",
             "title":"Contact | 374 Conciergerie"
         },
-        "heading": "Contactez 374 Conciergerie",
+        "heading": "Contacter 374 Conciergerie",
         "subheading": "Contactez-nous pour débuter votre voyage!",
-        "phone": "Téléphone",
+        "phone": "TÉLÉPHONE",
         "message_us": "Contactez-nous",
         "follow_us": "Suivez-nous"
     },
@@ -245,7 +245,7 @@
             "title":"Offres | 374 Conciergerie"
         },
         "landing": "NOS OFFRES",
-        "heading":"Découvrez Nos Offres",
+        "heading":"Découvrez nos offres",
         "including_taxes": "TTC",
         "non_binding": "Sans engagement",
         "select": "Sélectionner",
@@ -285,7 +285,7 @@
         ]
     },
     "footer": {
-        "company": "Compagnie",
+        "company": "Entreprise",
         "about": "Qui sommes-nous",
         "services": "Services",
         "offers": "Offres",
@@ -293,6 +293,6 @@
         "customer_services": "Service Client",
         "contact_us": "Contact",
         "faqs": "FAQ",
-        "social": "Social"
+        "social": "Réseaux Sociaux"
     }
 }
