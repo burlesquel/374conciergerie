@@ -4,16 +4,23 @@ import MobileNavigation from '../components/MobileNavigation.vue';
 import Footer from './footer.vue';
 import Copyright from './copyright.vue'
 import StickyPhoneButton from '../components/StickyPhoneButton.vue';
-    export default{
+export default {
     components: { Header, MobileNavigation, Footer, Copyright, StickyPhoneButton },
-    data(){
-        return{
-            mobileNavOpen:false,
-            languagePopupState:false
+    head() {
+        return {
+            htmlAttrs: {
+                lang: this.$i18n.locale
+            }
+        };
+    },
+    data() {
+        return {
+            mobileNavOpen: false,
+            languagePopupState: false
         }
     },
-    methods:{
-        toggleNavbar(){
+    methods: {
+        toggleNavbar() {
             this.mobileNavOpen = !this.mobileNavOpen
         },
         toggleLanguagePopup(e) {
@@ -29,18 +36,18 @@ import StickyPhoneButton from '../components/StickyPhoneButton.vue';
 </script>
 
 <template>
-    <div class="relative" @click="toggleLanguagePopup" >
-        <MobileNavigation :open="mobileNavOpen" @togglenavbar="toggleNavbar"/>
+    <div class="relative" @click="toggleLanguagePopup">
+        <MobileNavigation :open="mobileNavOpen" @togglenavbar="toggleNavbar" />
 
-        <Header :popup-state="languagePopupState" @togglenavbar="toggleNavbar"/>
+        <Header :popup-state="languagePopupState" @togglenavbar="toggleNavbar" />
 
-        <Nuxt/>
+        <Nuxt />
 
-        <Footer/>
-        
+        <Footer />
+
         <!-- <StickyPhoneButton/> -->
 
-        <Copyright/>
+        <Copyright />
 
     </div>
 </template>

@@ -18,7 +18,7 @@ export default {
                 {
                     hid: 'keywords',
                     name: 'keywords',
-                    keywords: this.$t('offers').meta.keywords
+                    content: this.$t('offers').meta.keywords
                 },
                 ...locale_meta
             ]
