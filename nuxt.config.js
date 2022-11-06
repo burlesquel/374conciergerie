@@ -7,16 +7,19 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    title: '374 Conciergerie',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '374 Conciergerie is a private concierge based in Istanbul. Our members benefit from the best travel solutions, addresses and activities.' },
+      { hid: 'keywords', name: 'keywords', keywords: '374conciergerie, conciergerie, concierge, istanbul, turkey, türkiye, travel, otel, otels, tourist, tour, sailing, bosphorus, transit, cruis, cruising, vacation, travel planning, drive, cars, yacht, helicopter, activities, ticketing, events, offers, sea, bridge, travel assistant, easy life, luxury, exclusive, unique, personal concierge, personal travel assistant, priviliged, first-class, business, company, experience, restaurants, istanbul travel tips, airport, shuttle, travel guide, private, rich, turkish, istanbul best hotels, istanbul best places, istanbul shopping malls, istanbul best breakfests, istanbul best things to do, best, cappadocia, air balloons, transportation, luxury cars'},
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
         rel: "stylesheet",
@@ -55,6 +58,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/i18n',
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap'
   ],
 
@@ -68,19 +72,19 @@ export default {
     locales: [
       {
         code: 'en',
-        iso:'en-US',
+        iso: 'en-US',
         name: "English",
         file: 'en.json'
       },
       {
         code: 'fr',
-        iso:'fr-FR',
+        iso: 'fr-FR',
         name: "Français",
         file: 'fr.json'
       },
       {
         code: "tr",
-        iso:'tr-TR',
+        iso: 'tr-TR',
         name: "Türkçe",
         file: "tr.json"
       }
@@ -94,7 +98,7 @@ export default {
   sitemap: {
     hostname: 'https://374conciergerie.com',
     gzip: true,
-    trailingSlash:true
+    trailingSlash: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
