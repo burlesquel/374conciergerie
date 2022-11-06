@@ -48,7 +48,7 @@
             "services": [
                 {
                     "header": "Shopping",
-                    "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, meet a personal shopper need.",
+                    "content": "Find the latest handbag from a great brand or Collector model, help you find a specific item, and meet a personal shopper need.",
                     "icon": "fa-solid fa-bag-shopping"
                 },
                 {
@@ -58,17 +58,17 @@
                 },
                 {
                     "header": "Ticketing",
-                    "content": "Tickets for a football match, tennis tournament, boxing match or other sporting event. Reservation of places for concerts, shows, operas…",
+                    "content": "Tickets for a football match, tennis tournament, boxing match, or other sporting events. Reservation of places for concerts, shows, operas…",
                     "icon": "fa-solid fa-ticket"
                 },
                 {
                     "header": "Events",
-                    "content": "Organization of birthdays with privatization of a place, organization of parties with provision of a chef or caterer at home...",
+                    "content": "Organization of birthdays with privatisation of a place, organization of parties with provision of a chef or caterer at home...",
                     "icon": "fa-solid fa-calendar-days"
                 },
                 {
                     "header": "Activities",
-                    "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with delivery of a bouquet of flowers.",
+                    "content": "Cruise, helicopter, guided tour, sports activity, thrills, or find the best for a romantic dinner with the delivery of a bouquet.",
                     "icon": "fa-solid fa-person-running"
                 },
                 {
@@ -80,7 +80,7 @@
         },
         "how_it_works": {
             "heading": "How it works?",
-            "content": "374 Conciergerie welcomes you to become a member and have access to our services through a variety of offerings tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."
+            "content": "374 Conciergerie welcomes you to become a member and have access to our services through various of offering tailored to your specific needs. Once your membership is completed, you will have access to a specialized concierge who will accompany you in all of your demands."
         },
         "offers": {
             "heading": "Offers",
@@ -117,19 +117,19 @@
             {
                 "image": "/carousel/helicopter.png",
                 "heading": "Activities",
-                "content": "We manage your activities throughout your stay, enjoy unique addresses, the greatest travel ideas, and most importantly, peace of mind.",
+                "content": "We manage your activities throughout your stay, enjoy unique addresses, outstanding travel ideas, and, most importantly, peace of mind.",
                 "mode": 1
             },
             {
                 "image": "/carousel/yacht_under_bridge.png",
                 "heading": "Yacht",
-                "content": "Istanbul is a one-of-a-kind metropolis because to the Bosphorus, which runs through it. What could be more magnificent than having breakfast, spending the day or evening aboard a private yacht just you?",
+                "content": "Istanbul is a one-of-a-kind metropolis because of the Bosphorus, which runs through it. What could be more magnificent than having breakfast, spending the day or evening aboard a private yacht just you?",
                 "mode": 0
             },
             {
                 "image": "/carousel/cars.png",
                 "heading": "Cars",
-                "content": "Enjoy a vehicle for your travels, a family automobile, a comfort sedan, or the sports car of your desires.",
+                "content": "Enjoy a vehicle for your travels, a family automobile, a comfortable sedan, or the sports car of your desires.",
                 "mode": 1
             },
             {
@@ -141,7 +141,7 @@
             {
                 "image": "/carousel/girl_laying_against_landscape.png",
                 "heading": "Hotels",
-                "content": "Take advantage of the greatest hotels. We plan your stay with solutions tailored to your needs and pick the most renowned establishments for you.",
+                "content": "Take advantage of the most lavish hotels. We plan your stay with solutions tailored to your needs and pick the most renowned establishments.",
                 "mode": 1
             },
             {
@@ -153,7 +153,7 @@
             {
                 "image": "/carousel/soccer.png",
                 "heading": "Access",
-                "content": "We supply you with tickets to the finest events, whether it is a football match in a unique environment in the globe, a concert, or an opera.",
+                "content": "We supply you with tickets to the finest events, whether a football match in a unique environment in the globe, a concert, or an opera.",
                 "mode": 1
             },
             {
@@ -171,13 +171,13 @@
             {
                 "image": "/carousel/restaurant.png",
                 "heading": "Restaurant",
-                "content": "We find the most exquisite tables for sumptuous and unforgettable occasions.",
+                "content": "We find the most beautiful tables for sumptuous and unforgettable occasions.",
                 "mode": 0
             },
             {
                 "image": "/carousel/light_bulb.jpg",
                 "heading": "Daily Services and more",
-                "content": "Our concierges are available to you on a daily basis for any and all of your demands. Your specific requests are a great challenge for our employees, who will do everything in their power to accommodate you.",
+                "content": "Our concierges are available daily for any of your demands. Your specific requests are a tremendous challenge for our employees, who will do everything possible to accommodate you.",
                 "mode": 0
             }
         ]
@@ -192,8 +192,8 @@
         "whoarewe": {
             "heading": "Who are we?",
             "content1": [
-                "We are proud of our ideals and have as a heritage the most prominent hotel conciergerie, which we intended to transfer into our customers' daily life. 374 Conciergerie relies on an address book and a great network to provide us with benefits not available elsewhere in order to please our clients and provide individualized service. To satisfy our clients' demands, we have set up a system in Istanbul with partners that share our principles. We are here to provide you with an amazing experience and to assist your project around the clock.",
-                "Whatever their demands, our guests always have access to all of the resources of 374 Conciergerie. We systematically identify the optimal answer, even if it appears impossible or unusual. All of your aspirations are organized by us, we anticipate and take action."
+                "We are proud of our ideals and have as a heritage the most prominent hotel Conciergerie, which we intend to transfer into our customers' daily life. 374 Conciergerie relies on an address book and a great network to provide us with benefits not available elsewhere to please our clients and provide individualized service. To satisfy our client's demands, we have set up a system in Istanbul with partners that share our principles. We are here to provide you with a fantastic experience and to assist your project around the clock.",
+                "Whatever their demands, our guests always have access to all of the resources of 374 Conciergerie. We systematically identify the optimal answer, even if it appears impossible or unusual. All of your aspirations are organized by us, and we anticipate and take action."
             ],
             "content2": {
                 "general_manager": "Our General Manager",
@@ -210,7 +210,7 @@
                 },
                 {
                     "heading": "Availability",
-                    "content": "Our concierges are available to you 24 hours a day, seven days a week.",
+                    "content": "Our concierges are available 24 hours a day, seven days a week.",
                     "icon": "fa-regular fa-clock"
                 },
                 {
@@ -220,7 +220,7 @@
                 },
                 {
                     "heading": "Exclusive",
-                    "content": "Sharing our best addresses along with the VIP treatment.",
+                    "content": "We are sharing our best addresses along with the VIP treatment.",
                     "icon": "fa-regular fa-gem"
                 }
             ]
@@ -287,7 +287,7 @@
         "faqs": [
             {
                 "q": "What is a private concierge?",
-                "a": "A private concierge is a personal assistance service that provides its customers with individualized responses to their everyday demands.",
+                "a": "A private concierge is a personal assistance service that provides its customers with personalized responses to everyday demands.",
                 "visible": false
             },
             {
@@ -302,7 +302,7 @@
             },
             {
                 "q": "How do I contact my concierge?",
-                "a": "Our members have global access to a personal phone number and email address of our concierges.",
+                "a": "Our members have global access to the personal phone numbers and email addresses of our concierges.",
                 "visible": false
             },
             {
@@ -317,7 +317,7 @@
             },
             {
                 "q": "Is there a request limit?",
-                "a": "No, all our offers are request limitless.",
+                "a": "No, all our offers are requested limitless.",
                 "visible": false
             }
         ]
