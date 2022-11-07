@@ -29,8 +29,8 @@ export default {
       }
     ],
     script: [
-      { src: "https://popupsmart.com/freechat.js", body: true },
-      { src: '/popup.js', body: true },
+      { src: "https://popupsmart.com/freechat.js", body: true, async:true },
+      { src: '/popup.js', body: true, async:true },
       { src: "https://www.googletagmanager.com/gtag/js?id=AW-10985542941", async:true},
       { src: '/google_tag.js', async:true}
     ]
