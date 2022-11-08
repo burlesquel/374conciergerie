@@ -15,7 +15,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '374 Conciergerie is a private concierge based in Istanbul. Our members benefit from the best travel solutions, addresses and activities.' },
-      { hid: 'keywords', name: 'keywords', content: '374conciergerie, conciergerie, concierge, istanbul, turkey, türkiye, travel, otel, otels, tourist, tour, sailing, bosphorus, transit, cruis, cruising, vacation, travel planning, drive, cars, yacht, helicopter, activities, ticketing, events, offers, sea, bridge, travel assistant, easy life, luxury, exclusive, unique, personal concierge, personal travel assistant, priviliged, first-class, business, company, experience, restaurants, istanbul travel tips, airport, shuttle, travel guide, private, rich, turkish, istanbul best hotels, istanbul best places, istanbul shopping malls, istanbul best breakfests, istanbul best things to do, best, cappadocia, air balloons, transportation, luxury cars'},
+      { hid: 'keywords', name: 'keywords', content: '374conciergerie, conciergerie, concierge, istanbul, turkey, türkiye, travel, otel, otels, tourist, tour, sailing, bosphorus, transit, cruis, cruising, vacation, travel planning, drive, cars, yacht, helicopter, activities, ticketing, events, offers, sea, bridge, travel assistant, easy life, luxury, exclusive, unique, personal concierge, personal travel assistant, priviliged, first-class, business, company, experience, restaurants, istanbul travel tips, airport, shuttle, travel guide, private, rich, turkish, istanbul best hotels, istanbul best places, istanbul shopping malls, istanbul best breakfests, istanbul best things to do, best, cappadocia, air balloons, transportation, luxury cars' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -29,10 +29,10 @@ export default {
       }
     ],
     script: [
-      { src: "https://popupsmart.com/freechat.js", body: true, async:true },
-      { src: '/popup.js', body: true, async:true },
-      { src: "https://www.googletagmanager.com/gtag/js?id=AW-10985542941", async:true},
-      { src: '/google_tag.js', async:true}
+      { src: "https://popupsmart.com/freechat.js", body: true, async: true },
+      { src: '/popup.js', body: true, async: true },
+      { src: "https://www.googletagmanager.com/gtag/js?id=AW-10985542941", async: true },
+      { src: '/google_tag.js', async: true }
     ]
   },
 
@@ -94,7 +94,12 @@ export default {
     lazy: true,
     langDir: 'lang/',
     defaultLocale: 'en',
-    baseUrl: 'https://374conciergerie.com'
+    baseUrl: 'https://374conciergerie.com',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',  // recommended
+    }
   },
 
   sitemap: {
